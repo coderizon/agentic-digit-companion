@@ -1,4 +1,4 @@
-# Agentic RAG DIGITOM
+# Agentic DIGIT Companion
 
 Der **DIGITOM-Bedarfsassistent** hilft einem Fachamt, aus einem Anliegen einen prüfbaren Bedarf zu machen. Im Beispiel möchte der Außendienst kaputte Spielgeräte per Handy mit Foto und Standort melden. Der Assistent sucht einen bestehenden Service und dessen verantwortliches Team, zeigt einen ähnlichen früheren Fall und fragt nach Empfänger und Erfolgskriterium. Aus dem Gespräch entsteht ein **Steckbrief mit anklickbaren Originalquellen**. Er bleibt im jeweiligen Open-WebUI-Chat. Über die fachliche Freigabe und die Übernahme nach KIX oder Confluence entscheidet das Team.
 
@@ -77,7 +77,7 @@ Das Gateway bedient außerdem zwei Aufgaben mit eigenen Abläufen. **Haushaltsza
 Als vorgesehener **Linux-Benutzer der VM**, mit Lesezugriff auf dieses private Repository:
 
 ```bash
-git clone https://github.com/coderizon/agentic-rag-digitom.git && cd agentic-rag-digitom && bash setup.sh
+git clone https://github.com/coderizon/agentic-digit-companion.git && cd agentic-digit-companion && bash setup.sh
 ```
 
 **Für die Vorführung mit dem getesteten Datenstand** die Datei `stadt-20261124.tar.gz` vorab ins Home-Verzeichnis des VM-Benutzers kopieren. Der Installationsbefehl findet sie dort. Für einen anderen Speicherort gilt `bash setup.sh --snapshot /pfad/stadt-20261124.tar.gz`. Bei einer Erstinstallation ohne Archiv lädt der Installer die öffentlichen Quellen erneut und baut die Indizes auf. Dafür braucht er zusätzlich Tesseract mit dem deutschen Sprachpaket. Der geprüfte Snapshot enthält 2.149 Quellen, 5.411 Textpassagen und 48 Bildseiten. [Prüfsumme, Quellenstand und Modellversionen](ops/provenance.json)
