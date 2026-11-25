@@ -1,0 +1,18 @@
+[
+  {"id":"hund-steuer","question":"Wie viel Hundesteuer zahle ich in Freiburg pro Jahr für meinen ersten Hund und wie viel für den zweiten?","doc":"e86d34381906a2640e4bbd","page":2,"patterns":["\\b120(?:[.,]00)?\\b","\\b240(?:[.,]00)?\\b"]},
+  {"id":"hund-anmeldung","question":"Wir haben einen Hund aufgenommen. Bis wann und bei welcher Stelle muss ich die Haltung schriftlich anzeigen?","doc":"e86d34381906a2640e4bbd","page":5,"patterns":["Monat","Stadtkämmerei"]},
+  {"id":"hund-abmeldung","question":"Wir halten den Hund nicht mehr. Muss ich seine Freiburger Steuermarke bei der Abmeldung zurückgeben?","doc":"e86d34381906a2640e4bbd","page":5,"patterns":["[Mm]arke","zurück|zurückzu"]},
+  {"id":"parken-ersatz","question":"Ich habe meinen Bewohnerparkausweis verloren. Was kostet mich ein neuer als Ersatz?","doc":"3ba69e55321acb7922b069","page":2,"patterns":["\\b10(?:[.,]00)?\\s*(?:Euro|€)"]},
+  {"id":"parken-verlaengern","question":"Mein Bewohnerparkausweis läuft bald ab. Wie früh kann ich den nächsten beantragen?","doc":"3ba69e55321acb7922b069","page":2,"patterns":["Monat","vor"]},
+  {"id":"buecherei-anmeldung","question":"Kann ich mich bei der Stadtbibliothek online registrieren, und wie alt muss ich sein und wo gemeldet?","doc":"0fea4e77940835b4631feb","page":2,"patterns":["18|achtzehn|volljähr","Deutschland"]},
+  {"id":"buecherei-verleihen","question":"Darf ich meinen Bibliotheksausweis der Stadtbibliothek an einen Freund verleihen? Wem gehört der Ausweis?","doc":"0fea4e77940835b4631feb","page":3,"patterns":["nicht übertragbar|nicht (?:weitergeben|verleihen|übertragen)|darfst.{0,36}nicht|dürfen.{0,36}nicht","Stadtbibliothek"]},
+  {"id":"buecherei-frist","question":"Wie lange kann ich normalerweise Bücher aus der Stadtbibliothek ausleihen?","doc":"0fea4e77940835b4631feb","page":3,"patterns":["(?:vier|4) Wochen"]},
+  {"id":"baum-stamm","question":"In welcher Höhe wird nach der Baumschutzsatzung ein Stamm gemessen, wenn die Krone schon sehr tief beginnt?","doc":"350eefbe49f6180d315534","page":2,"patterns":["10\\s*(?:cm|Zentimeter)","unter"]},
+  {"id":"park-enten","question":"Darf ich in den öffentlichen Parkanlagen in Freiburg Enten füttern?","doc":"beaf893410d823586a5eb8","page":3,"patterns":["verboten|untersagt|nicht (?:erlaubt|gestattet|gefüttert)|darf.{0,35}nicht|dürfen.{0,35}nicht"]},
+  {"id":"linienweg","question":"Zwischen welchen Orten verläuft die VAG-Linie 10 im veröffentlichten Fahrplan?","path":"fahrplan","url_contains":"VAGFR.zip","patterns":["Bissierstraße","Paduaallee","routes.txt"]},
+  {"id":"ratsinfo","question":"Welches Datum und welchen Betreff hat die Drucksache G-26/159? Ist sie als Beschlussvorlage gekennzeichnet?","path":"ratsinfo","url_contains":"oparl/paper/5941008100159","patterns":["22[.]10[.]2026","Beteiligungshaushalt","Beschluss[- ]?vorlage"]},
+  {"id":"einwohner","question":"Wie viele Einwohner hatte Freiburg 2025?","path":"statistik","url_contains":"content.csv","patterns":["234[. ]565","CSV-Zeile 34"]},
+  {"id":"live-parken","question":"Sind im Parkhaus am Bahnhof Freiburg gerade Parkplätze frei?","path":"livewert","patterns":["kein.{0,8}Livewert"]},
+  {"id":"negativ","question":"Wie lautet die Buchungsnummer meines privaten Hotelzimmers für die Freiburger Dienstreise?","patterns":["kein.{0,20}Beleg|keine.{0,35}Information"]},
+  {"id":"karte","question":"Zeig mir eine Karte aus der Freiburger Parkanlagensatzung. Was ist auf der Seite zu sehen?","doc":"beaf893410d823586a5eb8","image":true,"patterns":["Karte|Anlage","!\\[Originalseite"]}
+]

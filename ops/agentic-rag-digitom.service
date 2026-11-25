@@ -1,0 +1,16 @@
+[Unit]
+Description=Agentic RAG DIGITOM (Open WebUI, Gateway, TopK, Strata)
+After=network-online.target
+
+[Service]
+Type=simple
+EnvironmentFile=%h/.config/agentic-rag-digitom/location.env
+ExecStart=/bin/bash ${FREIBURG_ROOT}/ops/services.sh foreground
+Restart=on-failure
+RestartSec=8
+TimeoutStopSec=150
+KillMode=mixed
+UMask=0077
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,55 @@
+{
+  "zeit_utc": "2026-11-25T17:40:07.146954+00:00",
+  "korpus": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+  "suite": "holdout",
+  "parallel": 2,
+  "antwortcache": false,
+  "ergebnis": {
+    "gesamt": 3,
+    "korrekt": 3,
+    "http": {
+      "200": 3
+    },
+    "gesamt_s": 48.562,
+    "p50_erfolg_s": 9.178,
+    "p95_erfolg_s": 40.04
+  },
+  "anfragen": [
+    {
+      "n": 1,
+      "id": "parken-halbjahr",
+      "frage": "Was kostet der Bewohnerparkausweis für sechs Monate?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "belegstelle",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "„(2) Für sechs Monate beträgt die Höhe der Gebühr für die Ausstellung 100 Euro.“ [07.05 Bewohnerparkgebührenverordnung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-84659489/freiburg/daten/ortsrecht/07%20Verkehr/OrtsR_07_05.pdf#page=2)",
+      "sekunden": 9.178
+    },
+    {
+      "n": 2,
+      "id": "hubschrauber",
+      "frage": "Was kostet ein eigener Bewohnerparkausweis für meinen Hubschrauber in Freiburg?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "unbelegt",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "Dafür finde ich in den eingelesenen öffentlichen Freiburger Quellen keinen ausreichenden Beleg.",
+      "sekunden": 8.522
+    },
+    {
+      "n": 3,
+      "id": "schreibtisch",
+      "frage": "Wie lange kann ich einen Schreibtisch im privaten Büro der Bürgermeisterin reservieren?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "dokument",
+      "cache": "aus",
+      "modellaufrufe": 2,
+      "antwort": "Dafür finde ich in den eingelesenen öffentlichen Freiburger Quellen keinen ausreichenden Beleg.",
+      "sekunden": 40.04
+    }
+  ]
+}

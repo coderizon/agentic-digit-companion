@@ -1,0 +1,10 @@
+Übungsunterlage · Fiktiver Servicekatalog
+
+Typ: IT-Service
+Kennung: DEMO-S02
+Titel: Online-Terminvergabe
+Leistung: Bürgerinnen und Bürger können freie Zeiten für eine Sprechstunde auswählen, einen Termin buchen und eine Bestätigung erhalten.
+Zuständig: Serviceteam Digitale Termine
+Suchbegriffe: Termin, Sprechstunde, Zeitfenster, Terminslot, Terminvergabe, Terminbuchung, buchen, Beratungstermin, Kalender
+
+Die angebotenen Sprechzeiten und die fachlich verantwortliche Stelle müssen mit dem anfragenden Amt abgestimmt werden.

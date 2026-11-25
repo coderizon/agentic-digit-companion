@@ -1,0 +1,139 @@
+{
+  "zeit_utc": "2026-11-25T17:45:38.168508+00:00",
+  "korpus": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+  "suite": "holdout",
+  "parallel": 3,
+  "antwortcache": false,
+  "ergebnis": {
+    "gesamt": 10,
+    "korrekt": 10,
+    "http": {
+      "200": 10
+    },
+    "gesamt_s": 129.442,
+    "p50_erfolg_s": 42.147,
+    "p95_erfolg_s": 67.691
+  },
+  "anfragen": [
+    {
+      "n": 1,
+      "id": "ruhezeit",
+      "frage": "Wie lange ist die reguläre Ruhezeit auf dem Freiburger Friedhof für einen Sarg bei einem Erwachsenen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(1) Die Ruhezeit für Särge und Aschenurnen beträgt 15 Jahre. Bei Kindern, die vor Vollendung des zehnten Lebensjahres verstorben sind, beträgt die Ruhezeit zehn Jahre.“ [17.06 Friedhofssatzung der Stadt Freiburg i.Br. · PDF-Seite 9](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1836650446/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_06.pdf#page=9)",
+      "sekunden": 56.606
+    },
+    {
+      "n": 2,
+      "id": "reihengrab",
+      "frage": "Bis wann muss ich eine Reihengrabstätte nach Ende des Nutzungsrechts abräumen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "belegstelle",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "„(7) Nach Beendigung des Nutzungsrechts hat die nutzungsberechtigte Person die Reihengrabstätte innerhalb von drei Monaten unter Entfernung des Grabmals und des Grabzubehörs abzuräumen und einzuebnen. Die Friedhofsverwaltung weist vor Ende der Ruhezeit durch Hinweis auf dem betreffenden Grabfeld und durch öffentliche Bekanntmachung auf die Pflicht zur Abräumung hin. Zivilrechtliche Ansprüche, insbesondere gegen die Erben einer verstorbenen nutzungsberechtigten Person, bleiben unberührt.“ [17.06 Friedhofssatzung der Stadt Freiburg i.Br. · PDF-Seite 12](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1836650446/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_06.pdf#page=12)",
+      "sekunden": 9.62
+    },
+    {
+      "n": 3,
+      "id": "friedhof-kind",
+      "frage": "Darf mein sechsjähriger Sohn alleine auf einen städtischen Friedhof in Freiburg gehen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(2) Kinder unter sieben Jahren dürfen die Friedhöfe nur in Begleitung Erwachsener betreten.“ [17.06 Friedhofssatzung der Stadt Freiburg i.Br. · PDF-Seite 4](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1836650446/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_06.pdf#page=4)",
+      "sekunden": 57.09
+    },
+    {
+      "n": 4,
+      "id": "parken-halbjahr",
+      "frage": "Was kostet der Bewohnerparkausweis für sechs Monate?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "belegstelle",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "„(2) Für sechs Monate beträgt die Höhe der Gebühr für die Ausstellung 100 Euro.“ [07.05 Bewohnerparkgebührenverordnung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-84659489/freiburg/daten/ortsrecht/07%20Verkehr/OrtsR_07_05.pdf#page=2)",
+      "sekunden": 1.665
+    },
+    {
+      "n": 5,
+      "id": "parken-jahr",
+      "frage": "Was kostet mich die Ausstellung eines Bewohnerparkausweises für ein ganzes Jahr?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "belegstelle",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "„(1) Für ein Jahr beträgt die Höhe der Gebühr für die Ausstellung 200 Euro.“ [07.05 Bewohnerparkgebührenverordnung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-84659489/freiburg/daten/ortsrecht/07%20Verkehr/OrtsR_07_05.pdf#page=2)",
+      "sekunden": 3.767
+    },
+    {
+      "n": 6,
+      "id": "ausweis-verlust",
+      "frage": "Ich habe meinen Bibliotheksausweis verloren. Wann soll ich das der Stadtbibliothek mitteilen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(4) Namens- und Adressänderungen sowie der Verlust des Bibliotheksausweises sind der Stadtbibliothek unverzüglich mitzuteilen, damit das Bibliothekskonto entsprechend geändert bzw. gesperrt werden kann.“ [17.11 Stadtbibliothekssatzung · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-342330762/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_11.pdf#page=3)",
+      "sekunden": 42.147
+    },
+    {
+      "n": 7,
+      "id": "buch-vorgemerkt",
+      "frage": "Kann ich ein Buch der Freiburger Stadtbibliothek verlängern, wenn jemand es schon vorgemerkt hat?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(3) Ausgeliehene Medien können vorgemerkt werden. Die Leihfrist für ausgeliehene Medien kann verlängert werden, sofern keine Vormerkung auf die jeweiligen Medien vorliegt.“ [17.11 Stadtbibliothekssatzung · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-342330762/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_11.pdf#page=3)",
+      "sekunden": 49.874
+    },
+    {
+      "n": 8,
+      "id": "baumschule",
+      "frage": "Schützt die Freiburger Baumschutzsatzung die Bäume in einer Baumschule?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(3) Bäume im Wald, in Baumschulen und Gärtnereien werden durch die Vorschriften dieser Satzung nicht geschützt. Der Schutz der folgenden Bäume richtet sich allein nach den Bestimmungen des Naturschutzgesetzes für Baden-Württemberg in der jeweils geltenden Fassung: 1. Bäume, die als eingetragene Naturdenkmale oder als Teile eines eingetragenen Naturdenkmals nach dem Naturschutzgesetz geschützt sind; 2. Bäume, die sich in einem als Naturschutzgebiet förmlich ausgewiesenen Landschaftsteil befinden; 3. Bäume, die sich in einem als Landschaftsschutzgebiet förmlich ausgewiesenen Landschaftsteil befinden.“ [11.01.03 Baumschutzsatzung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-2005091242/freiburg/daten/ortsrecht/11%20Landschafts-%20und%20Naturschutz/OrtsR_11_01_03.pdf#page=2)",
+      "sekunden": 49.715
+    },
+    {
+      "n": 9,
+      "id": "hubschrauber",
+      "frage": "Was kostet ein eigener Bewohnerparkausweis für meinen Hubschrauber in Freiburg?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "unbelegt",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "Dafür finde ich in den eingelesenen öffentlichen Freiburger Quellen keinen ausreichenden Beleg.",
+      "sekunden": 4.552
+    },
+    {
+      "n": 10,
+      "id": "schreibtisch",
+      "frage": "Wie lange kann ich einen Schreibtisch im privaten Büro der Bürgermeisterin reservieren?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "dokument",
+      "cache": "aus",
+      "modellaufrufe": 2,
+      "antwort": "Dafür finde ich in den eingelesenen öffentlichen Freiburger Quellen keinen ausreichenden Beleg.",
+      "sekunden": 67.691
+    }
+  ]
+}

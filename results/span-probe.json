@@ -1,0 +1,230 @@
+[
+  {
+    "frage": "Ich habe meinen Bewohnerparkausweis verloren. Was kostet mich ein neuer als Ersatz?",
+    "expected_doc": "3ba69e55321acb7922b069",
+    "expected_page": 2,
+    "accepted": true,
+    "doc": "3ba69e55321acb7922b069",
+    "page": 2,
+    "answer": "(3) Für Änderungen auf dem Bewohnerparkausweis sowie die Ersatzausstellung aufgrund von Verlust wird eine Gebühr in Höhe von 10 Euro erhoben. Unter Änderungen fallen insbesondere der Umzug in ein anderes Parkgebiet oder ein Fahrzeugwechsel. Die Gültigkeitsdauer des Bewohnerparkausweises wird durch eine Änderung im Sinne der Sätze 1 und 2 nicht berührt.",
+    "top": [
+      [
+        7.5,
+        "10 Euro"
+      ],
+      [
+        0.3,
+        "einen Monat"
+      ]
+    ]
+  },
+  {
+    "frage": "Mein Bewohnerparkausweis läuft bald ab. Wie früh kann ich den nächsten beantragen?",
+    "expected_doc": "3ba69e55321acb7922b069",
+    "expected_page": 2,
+    "accepted": false,
+    "doc": null,
+    "page": null,
+    "answer": null,
+    "top": [
+      [
+        6.8,
+        "einen Monat"
+      ],
+      [
+        -2.3,
+        "eines Jahres oder für den Zeitraum von 6 Monaten"
+      ]
+    ]
+  },
+  {
+    "frage": "Wie lange kann ich normalerweise Bücher aus der Stadtbibliothek ausleihen?",
+    "expected_doc": "0fea4e77940835b4631feb",
+    "expected_page": 3,
+    "accepted": false,
+    "doc": null,
+    "page": null,
+    "answer": null,
+    "top": [
+      [
+        10.3,
+        "bis zum Ende der Öffnungszeit"
+      ],
+      [
+        5.3,
+        "Verlängerung der Leihfrist"
+      ]
+    ]
+  },
+  {
+    "frage": "In welcher Höhe wird nach der Baumschutzsatzung ein Stamm gemessen, wenn die Krone schon sehr tief beginnt?",
+    "expected_doc": "350eefbe49f6180d315534",
+    "expected_page": 2,
+    "accepted": false,
+    "doc": null,
+    "page": null,
+    "answer": null,
+    "top": [
+      [
+        7.3,
+        "1 m"
+      ],
+      [
+        6.2,
+        "100 cm"
+      ]
+    ]
+  },
+  {
+    "frage": "Wie lange beträgt die Ruhezeit für Urnen bei verstorbenen Erwachsenen auf dem Freiburger Friedhof?",
+    "expected_doc": "426cdf8df8a786e8c7c9dd",
+    "expected_page": 9,
+    "accepted": false,
+    "doc": null,
+    "page": null,
+    "answer": null,
+    "top": [
+      [
+        10.8,
+        "0,80 m"
+      ],
+      [
+        7.3,
+        "15 Jahre"
+      ]
+    ]
+  },
+  {
+    "frage": "Bis wann muss ich eine Reihengrabstätte nach Ende des Nutzungsrechts abräumen?",
+    "expected_doc": "426cdf8df8a786e8c7c9dd",
+    "expected_page": 12,
+    "accepted": true,
+    "doc": "426cdf8df8a786e8c7c9dd",
+    "page": 12,
+    "answer": "(7) Nach Beendigung des Nutzungsrechts hat die nutzungsberechtigte Person die Reihengrabstätte innerhalb von drei Monaten unter Entfernung des Grabmals und des Grabzubehörs abzuräumen und einzuebnen. Die Friedhofsverwaltung weist vor Ende der Ruhezeit durch Hinweis auf dem betreffenden Grabfeld und durch öffentliche Bekanntmachung auf die Pflicht zur Abräumung hin. Zivilrechtliche Ansprüche, insbesondere gegen die Erben einer verstorbenen nutzungsberechtigten Person, bleiben unberührt.",
+    "top": [
+      [
+        10.2,
+        "drei Monaten"
+      ],
+      [
+        7.6,
+        "Ablauf der Ruhezeit"
+      ]
+    ]
+  },
+  {
+    "frage": "Wie lange ist die reguläre Ruhezeit auf dem Freiburger Friedhof für einen Sarg?",
+    "expected_doc": "426cdf8df8a786e8c7c9dd",
+    "expected_page": 9,
+    "accepted": true,
+    "doc": "426cdf8df8a786e8c7c9dd",
+    "page": 9,
+    "answer": "(1) Die Ruhezeit für Särge und Aschenurnen beträgt 15 Jahre. Bei Kindern, die vor Vollendung des zehnten Lebensjahres verstorben sind, beträgt die Ruhezeit zehn Jahre.",
+    "top": [
+      [
+        13.3,
+        "15 Jahre"
+      ],
+      [
+        10.7,
+        "15 Minuten"
+      ]
+    ]
+  },
+  {
+    "frage": "Was kostet der Bewohnerparkausweis für sechs Monate?",
+    "expected_doc": "3ba69e55321acb7922b069",
+    "expected_page": 2,
+    "accepted": true,
+    "doc": "3ba69e55321acb7922b069",
+    "page": 2,
+    "answer": "(2) Für sechs Monate beträgt die Höhe der Gebühr für die Ausstellung 100 Euro.",
+    "top": [
+      [
+        13.3,
+        "100 Euro"
+      ],
+      [
+        0.7,
+        "Gebührenreduzierung"
+      ]
+    ]
+  },
+  {
+    "frage": "Wie lange kann ich einen Schreibtisch im privaten Büro der Bürgermeisterin reservieren?",
+    "expected_doc": null,
+    "expected_page": null,
+    "accepted": false,
+    "doc": null,
+    "page": null,
+    "answer": null,
+    "top": [
+      [
+        -5.3,
+        "3 Monate"
+      ],
+      [
+        -8.3,
+        "ein Jahr"
+      ]
+    ]
+  },
+  {
+    "frage": "Was kostet es, ein Einhorn in der Stadtbibliothek anzumelden?",
+    "expected_doc": null,
+    "expected_page": null,
+    "accepted": false,
+    "doc": null,
+    "page": null,
+    "answer": null,
+    "top": [
+      [
+        -1.7,
+        "Die Gebühr für die Benutzung"
+      ],
+      [
+        -2.1,
+        "Gebühren"
+      ]
+    ]
+  },
+  {
+    "frage": "Was kostet in Freiburg ein Bewohnerparkausweis für einen Hubschrauber?",
+    "expected_doc": null,
+    "expected_page": null,
+    "accepted": false,
+    "doc": null,
+    "page": null,
+    "answer": null,
+    "top": [
+      [
+        -8.4,
+        "100 Euro"
+      ],
+      [
+        -8.7,
+        "200 Euro"
+      ]
+    ]
+  },
+  {
+    "frage": "Wie lange darf ich einen privaten Wintersport-Pass aus der Stadtbibliothek ausleihen?",
+    "expected_doc": null,
+    "expected_page": null,
+    "accepted": false,
+    "doc": null,
+    "page": null,
+    "answer": null,
+    "top": [
+      [
+        -5.7,
+        "bis zur Vollendung des 18. Lebensjahres"
+      ],
+      [
+        -5.9,
+        "vier Wochen"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "retrieval_reference": {
+    "url": "https://github.com/coderizon/Richtlinien-Assistant",
+    "commit": "762c9b3db4e999f142c27d814ecbd81b21108974",
+    "local_changes": ["T4-Aufmerksamkeitsberechnung", "konfigurierbare Reranker-/Index-Geräte", "Freiburger Quellen- und Antwortverarbeitung"]
+  },
+  "city_snapshot": {
+    "generation": "20261124T213930Z",
+    "archive": "stadt-20261124.tar.gz",
+    "archive_sha256": "4c41191019044dd248de7203f040ab850434382ea175d4c3b28ee63784e12534",
+    "corpus_sha256": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+    "registry_entries": 2149,
+    "text_passages": 5411,
+    "visual_pages": 48
+  },
+  "reader": {
+    "repo": "unsloth/Qwen3.8-Flash-Next-GGUF",
+    "revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+    "quantization": "UD-Q4_K_XL",
+    "strata_release": "https://github.com/Niko1221/Strata/releases/tag/v0.2.21",
+    "terminal_build": "0.1.68",
+    "terminal_commit": "2af30ccaa0729177c4725ee2073f72bf550e2f86",
+    "engine": "0.1.67-linux-x86_64-cuda-cuda13",
+    "engine_executable_sha256": "46ea34650f416bb4ebbc4e93d07d0e08a57ecfcf86711454e6c92150fb56ca90",
+    "engine_build": "4da72cca05cc+cuda13.0"
+  },
+  "ui": {
+    "version": "0.13.4",
+    "image": "ghcr.io/open-webui/open-webui@sha256:0c4439e78c24c85e3e7a41936771d3b02f0df38daf28a086cd83ca74804f7676",
+    "knowledge_embedding": {
+      "repo": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "device": "cpu"
+    }
+  }
+}

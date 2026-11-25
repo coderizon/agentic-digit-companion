@@ -1,0 +1,18 @@
+[Unit]
+Description=Freiburger Stadtchat (%i)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/srv/freiburg-openrag
+Environment=FREIBURG_ROOT=/srv/freiburg-openrag
+EnvironmentFile=-%h/.config/freiburg-rag.env
+ExecStart=/bin/bash /srv/freiburg-openrag/ops/run.sh %i
+Restart=on-failure
+RestartSec=8
+TimeoutStopSec=90
+KillMode=control-group
+UMask=0077
+
+[Install]
+WantedBy=default.target

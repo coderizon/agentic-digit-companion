@@ -1,0 +1,139 @@
+{
+  "zeit_utc": "2026-11-25T17:29:50.475266+00:00",
+  "korpus": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+  "suite": "distinct",
+  "parallel": 10,
+  "antwortcache": false,
+  "ergebnis": {
+    "gesamt": 10,
+    "korrekt": 10,
+    "http": {
+      "200": 10
+    },
+    "gesamt_s": 0.05,
+    "p50_erfolg_s": 0.033,
+    "p95_erfolg_s": 0.048
+  },
+  "anfragen": [
+    {
+      "n": 1,
+      "id": "zelle-282-2026-Aufwendungen",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 537000, Amt 170, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Dienstleistungen für den EAF (Produkt 537000, 170 Umweltschutzamt) beträgt der Planwert für Aufwendungen im Jahr 2026 **−58.220,70 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 282 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.045
+    },
+    {
+      "n": 2,
+      "id": "zelle-142-2025-Aufwendungen",
+      "frage": "Wie hoch ist der Ansatz 2025 für Aufwendungen im Produkt 215001, Amt 400, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für ?ffentlichkeitsarbeit (Produkt 215001, 400 Amt f. Schule, Bildung) beträgt der Planwert für Aufwendungen im Jahr 2025 **−129.695,90 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 142 · Spalte „Ansatz 2025 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.045
+    },
+    {
+      "n": 3,
+      "id": "zelle-322-2026-Aufwendungen",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 551000, Amt 151, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Gr?n-Freizeitfl?chen (Produkt 551000, 151 Ortsverw. Lehen) beträgt der Planwert für Aufwendungen im Jahr 2026 **−80.198,90 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 322 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.032
+    },
+    {
+      "n": 4,
+      "id": "zelle-160-2026-Aufwendungen",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 281001, Amt 110, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Kulturfürderung (Produkt 281001, 110 HPA/OB Büro/RIKP/NHM/PIWI/RbW) beträgt der Planwert für Aufwendungen im Jahr 2026 **−105.482,60 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 160 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.032
+    },
+    {
+      "n": 5,
+      "id": "zelle-227-2025-Erträge",
+      "frage": "Wie hoch ist der Ansatz 2025 für Erträge im Produkt 363006, Amt 530, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Bereitstellungskosten Beratungsstellen (Produkt 363006, 530 Amt f. Kinder, Jugend, Familie) beträgt der Planwert für Erträge im Jahr 2025 **446,90 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 227 · Spalte „Ansatz 2025 (Erträge)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.033
+    },
+    {
+      "n": 6,
+      "id": "zelle-106-2026-Aufwendungen",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 122204, Amt 151, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Bürgerservice (Produkt 122204, 151 Ortsverw. Lehen) beträgt der Planwert für Aufwendungen im Jahr 2026 **−154.820,40 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 106 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.045
+    },
+    {
+      "n": 7,
+      "id": "zelle-223-2025-Aufwendungen",
+      "frage": "Wie hoch ist der Ansatz 2025 für Aufwendungen im Produkt 363003, Amt 530, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Indiv. Hilfen f. junge Menschen u. Fam. (Produkt 363003, 530 Amt f. Kinder, Jugend, Familie) beträgt der Planwert für Aufwendungen im Jahr 2025 **−79.324.461,60 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 223 · Spalte „Ansatz 2025 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.033
+    },
+    {
+      "n": 8,
+      "id": "zelle-245-2026-Aufwendungen",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 511001, Amt 650, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Stadtentwicklung/St?dtebauliche Planung (Produkt 511001, 650 Immobilienmanagement Freiburg) beträgt der Planwert für Aufwendungen im Jahr 2026 **−221.761,00 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 245 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.032
+    },
+    {
+      "n": 9,
+      "id": "zelle-67-2026-Erträge",
+      "frage": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 112501, Amt 660, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Pla.-Bau-Unterhal.leist.auf Anf.Gr?nanl. (Produkt 112501, 660 Garten-, Tiefbauamt) beträgt der Planwert für Erträge im Jahr 2026 **346.084,00 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 67 · Spalte „Ansatz 2026 (Erträge)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.048
+    },
+    {
+      "n": 10,
+      "id": "zelle-199-2025-Erträge",
+      "frage": "Wie hoch ist der Ansatz 2025 für Erträge im Produkt 318005, Amt 530, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Leistungen nach BAf?G und AFBG (Produkt 318005, 530 Amt f. Kinder, Jugend, Familie) beträgt der Planwert für Erträge im Jahr 2025 **2.156,10 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 199 · Spalte „Ansatz 2025 (Erträge)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.031
+    }
+  ]
+}

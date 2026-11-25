@@ -1,0 +1,59 @@
+{
+  "zeit_utc": "2026-11-25T17:25:54.340490+00:00",
+  "cpu": {
+    "Model name": "Intel(R) Xeon(R) Gold 6132 CPU @ 2.60GHz",
+    "Socket(s)": "2",
+    "Core(s) per socket": "14",
+    "Thread(s) per core": "2",
+    "CPU(s)": "56"
+  },
+  "ram_GiB": 503.53,
+  "cgroup_ram_GiB": 483.39,
+  "gpu": [
+    "0, Tesla T4, 15360 MiB, 7.5, 595.91.07",
+    "1, Tesla T4, 15360 MiB, 7.5, 595.91.07",
+    "2, Tesla T4, 15360 MiB, 7.5, 595.91.07",
+    "3, Tesla T4, 15360 MiB, 7.5, 595.91.07"
+  ],
+  "engine": {
+    "version": "0.1.67",
+    "build_id": "4da72cca05cc+cuda13.0",
+    "variant": "cuda13"
+  },
+  "modell": "qwen3.8-flash-next-unsloth-ud-q4_k_xl",
+  "kontext": 16384,
+  "slots": {
+    "serving": 4,
+    "requested": 4
+  },
+  "vision": {
+    "enabled": true,
+    "available": true,
+    "error": null
+  },
+  "json": {
+    "formats": [
+      "json_object",
+      "json_schema"
+    ],
+    "method": "prompt_and_validate",
+    "constrained_decoding": false,
+    "stream_buffered": true
+  },
+  "daten": {
+    "stand": "20261124T213930Z",
+    "fundstellen": 5411,
+    "bildseiten": 48,
+    "quellen": {
+      "Datenkatalog": 1687,
+      "Haushalt": 3,
+      "MobiData BW": 15,
+      "Ortsrecht": 264,
+      "Ratsinfo": 139,
+      "Ratsvorlage": 40,
+      "VAG-Fahrplan": 1
+    }
+  },
+  "openwebui": "0.13.4",
+  "netz": "localhost mit SSH-Tunnel"
+}

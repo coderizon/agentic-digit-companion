@@ -1,0 +1,7 @@
+{
+  "produktivpfad_im_miettest": true,
+  "gateway_port": 8090,
+  "ui_port": 8077,
+  "sammlungsfilter_aktiv": true,
+  "vhs_haushalt_mit_quelle": true
+}

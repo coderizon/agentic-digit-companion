@@ -1,0 +1,31 @@
+{
+  "zeit_utc": "2026-11-25T17:31:52.927854+00:00",
+  "korpus": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+  "suite": "documents",
+  "parallel": 1,
+  "antwortcache": false,
+  "ergebnis": {
+    "gesamt": 1,
+    "korrekt": 1,
+    "http": {
+      "200": 1
+    },
+    "gesamt_s": 74.667,
+    "p50_erfolg_s": 74.667,
+    "p95_erfolg_s": 74.667
+  },
+  "anfragen": [
+    {
+      "n": 1,
+      "id": "karte",
+      "frage": "Zeig mir eine Karte aus der Freiburger Parkanlagensatzung. Was ist auf der Seite zu sehen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "bild",
+      "cache": "aus",
+      "modellaufrufe": 2,
+      "antwort": "Die Karte trägt die Beschriftung „Anlage zur Parkanlagensatzung, Karte 4: Dietenbachpark“.\n\n![Originalseite 13 aus 17.16 Parkanlagensatzung](/static/freiburg/124482eeaabf4d3ae7036cf97c19b36a65913f4901523e9e0c2b680b2c64599a.png)\n\n[17.16 Parkanlagensatzung · PDF-Seite 13](https://www.freiburg.de/pb/site/Freiburg/get/documents_E612184403/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_16.pdf#page=13)",
+      "sekunden": 74.667
+    }
+  ]
+}

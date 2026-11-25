@@ -1,0 +1,13 @@
+{
+  "lokal": {
+    "steckbrief": true,
+    "quelle_lesbar": true,
+    "neustart": true,
+    "externe_anfragen": 0
+  },
+  "openwebui": {
+    "startlink_modell": true,
+    "zwei_nachrichten": true,
+    "original_im_browser_lesbar": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "test": "Neue Installation unter eigenem Pfad mit vorhandenen Modellgewichten und passender Python-Laufzeit",
+  "register": 2149,
+  "fundstellen": 5411,
+  "separate_zugangsdaten": true,
+  "statistik": "234.565",
+  "haushaltszelle": "Für Eigenbetrieb Theater Freiburg (Produkt 261000, 200 Stadtkämmerei) beträgt der Planwert für Aufwendungen im Jahr 2026 **−22.590.272,00 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 151 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+  "quelle": "plan.json"
+}

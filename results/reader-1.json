@@ -1,0 +1,25 @@
+{
+  "model": "qwen3.8-flash-next-unsloth-ud-q4_k_xl",
+  "ergebnis": {
+    "parallel": 1,
+    "http": {
+      "200": 1
+    },
+    "korrekt": 1,
+    "ttft_p95_s": 10.426,
+    "gesamt_p95_s": 16.079,
+    "lauf_s": 16.079
+  },
+  "anfragen": [
+    {
+      "id": "hund-steuer",
+      "n": 1,
+      "ttft_s": 10.426,
+      "http": 200,
+      "ende": "stop",
+      "gesamt_s": 16.079,
+      "antwort": "Für den ersten Hund zahlen Sie 120,00 Euro und für den zweiten Hund 240,00 Euro pro Jahr.",
+      "korrekt": true
+    }
+  ]
+}

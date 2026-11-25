@@ -1,0 +1,9 @@
+Übungsunterlage · Fiktives Bedarfsarchiv
+
+Typ: Vergleichsbedarf
+Kennung: DEMO-B17
+Titel: Beschädigte Parkbänke melden
+Bezugsservice: DEMO-S01
+Erfahrung: Bei den Parkbänken wurden Foto und Standort über die mobile Mängelmeldung erfasst. Vor dem Start musste die empfangende Stelle festgelegt werden.
+
+Der Vorgang beschreibt einen früheren Übungsfall. Er beinhaltet keine Freigabe für weitere Einsatzorte.

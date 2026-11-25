@@ -1,0 +1,1843 @@
+{
+  "zeit_utc": "2026-11-25T18:17:43.370561+00:00",
+  "korpus": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+  "suite": "docburst",
+  "parallel": 200,
+  "antwortcache": false,
+  "ergebnis": {
+    "gesamt": 200,
+    "korrekt": 5,
+    "http": {
+      "200": 7,
+      "429": 184,
+      "503": 2,
+      "0": 7
+    },
+    "gesamt_s": 850.145,
+    "p50_erfolg_s": 616.641,
+    "p95_erfolg_s": 791.505
+  },
+  "anfragen": [
+    {
+      "n": 1,
+      "id": "paragraph-ec77fa1dd4b8b55c113c2c-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „3. Ortsrecht-Anpassungssatzung (Waltershofen, Lehen und Opfingen)“ zum Thema „Ergänzung der Satzung über die Hundesteuer“ erklären? Bitte nenne die Originalseite.",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "dokument",
+      "cache": "aus",
+      "modellaufrufe": 2,
+      "antwort": "§ 2 der 3. Ortsrecht-Anpassungssatzung (Waltershofen, Lehen und Opfingen) ergänzt § 1 Abs. 1 der Satzung über die Hundesteuer vom 15. März 1971 dahingehend, dass die Steuer im Rechnungsjahr für jeden Hund 90,-- DM beträgt, wobei abweichende Beträge für die Stadtteile Freiburg-Lehen (36,-- DM), Freiburg-Waltershofen (16,-- DM) und Freiburg-Opfingen (24,-- DM) festgelegt werden. [03.08.02 3. Ortsrecht-Anpassungssatzung (Waltershofen, Lehen und Opfingen) · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E1748124100/freiburg/daten/ortsrecht/03%20Ortschaften/OrtsR_03_08_02.pdf#page=2)",
+      "sekunden": 616.641
+    },
+    {
+      "n": 2,
+      "id": "paragraph-426cdf8df8a786e8c7c9dd-16",
+      "frage": "Was bedeutet § 16 „Allgemeines“ in „Friedhofssatzung der Stadt Freiburg i.Br.“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "dokument",
+      "cache": "aus",
+      "modellaufrufe": 2,
+      "antwort": "§ 16 der Friedhofssatzung legt fest, dass auf den Friedhöfen Reihengräber, Wahlgräber sowie Ehrengräber und Kriegsgräber zur Verfügung gestellt werden. [17.06 Friedhofssatzung der Stadt Freiburg i.Br. · PDF-Seite 10](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1836650446/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_06.pdf#page=10)\n\nDie Grabstätten bleiben Eigentum der Stadt Freiburg i. Br., und betroffene Personen können an ihnen lediglich Nutzungsrechte gemäß der Satzung erwerben. [17.06 Friedhofssatzung der Stadt Freiburg i.Br. · PDF-Seite 10](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1836650446/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_06.pdf#page=10)",
+      "sekunden": 791.505
+    },
+    {
+      "n": 3,
+      "id": "paragraph-01ec07382940afd08d83e0-14",
+      "frage": "Was bedeutet § 14 „Beendigung der Mitgliedschaft“ in „Stadtfeuerwehrverbandssatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.663
+    },
+    {
+      "n": 4,
+      "id": "paragraph-96db827a06998cbd26b4b8-10",
+      "frage": "Was bedeutet § 10 „Vertretung in der Verbundgesellschaft“ in „Verbandssatzung Regio-Nahverkehr Freiburg (ZRF)“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.617
+    },
+    {
+      "n": 5,
+      "id": "paragraph-426cdf8df8a786e8c7c9dd-14",
+      "frage": "Wie würdest du mir die Regelung in § 14 der Freiburger Vorschrift „Friedhofssatzung der Stadt Freiburg i.Br.“ zum Thema „Ruhezeit“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.586
+    },
+    {
+      "n": 6,
+      "id": "paragraph-ee891188f6e10233ec5ec4-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Geltungsbereich“ (§ 1) aus „Stadionverordnung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.682
+    },
+    {
+      "n": 7,
+      "id": "paragraph-8c5d718f4fe78cf33cb8cb-12",
+      "frage": "Was bedeutet § 12 „Geschäftsgang im Verwaltungsrat“ in „Zweckverbandssatzung Kommunale Informationsverarbeitung Baden-Franken“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.688
+    },
+    {
+      "n": 8,
+      "id": "paragraph-a498798534cf2dc7182fb9-25",
+      "frage": "Was bedeutet § 25 „Sonderregelungen“ in „Verbandssatzung Abwasserzweckverband Breisgauer Bucht“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.587
+    },
+    {
+      "n": 9,
+      "id": "paragraph-bc9ab75e01dca3726eabcc-5",
+      "frage": "Was bedeutet § 5 „Übernahme der Bediensteten“ in „Eingliederungsvereinbarung Tiengen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.588
+    },
+    {
+      "n": 10,
+      "id": "paragraph-017b2e77c77f224437a9bf-8",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Duldungspflicht der Eigentümer und“ (§ 8) aus „Wasserschutzgebietsverordnung Munzingen, Tiengen und Mengen“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.587
+    },
+    {
+      "n": 11,
+      "id": "paragraph-ab66156d82b3d3f3dd6803-12",
+      "frage": "Was bedeutet § 12 „Ausschuss der Berufsfeuerwehr“ in „Feuerwehrsatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 503,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 825.74
+    },
+    {
+      "n": 12,
+      "id": "paragraph-ddb0d3045d9a1089fd133f-8",
+      "frage": "Wie würdest du mir die Regelung in § 8 der Freiburger Vorschrift „Vergnügungsteuersatzung“ zum Thema „Stückzahlmaßstab“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.663
+    },
+    {
+      "n": 13,
+      "id": "paragraph-c39e673e783049ab394c32-11",
+      "frage": "Wie würdest du mir die Regelung in § 11 der Freiburger Vorschrift „Benutzungssatzung der Unterkünfte für wohnungslose Personen“ zum Thema „Instandhaltung der Unterkünfte“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.615
+    },
+    {
+      "n": 14,
+      "id": "paragraph-4da3b43b453e5d00e4071e-4",
+      "frage": "Wie würdest du mir die Regelung in § 4 der Freiburger Vorschrift „Zweckverbandssatzung Tierische Nebenprodukte Süd-Baden-Württemberg“ zum Thema „Verfassung, Verwaltung und Wirtschaftsführung des Zweckverbandes“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.593
+    },
+    {
+      "n": 15,
+      "id": "paragraph-ef1ae751c205639a55c8cb-13",
+      "frage": "Wie würdest du mir die Regelung in § 13 der Freiburger Vorschrift „Satzung über das Verbot der Zweckentfremdung von Wohnraum“ zum Thema „Anordnungen und Sofortvollzug“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.619
+    },
+    {
+      "n": 16,
+      "id": "paragraph-28005a19b7734dc924d34e-14",
+      "frage": "Wie würdest du mir die Regelung in § 14 der Freiburger Vorschrift „Hauptsatzung“ zum Thema „Ältestenrat“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.588
+    },
+    {
+      "n": 17,
+      "id": "paragraph-e4e66da84dbea61b8404ed-3",
+      "frage": "Was bedeutet § 3 „Genehmigungspflichten“ in „Satzung über das Sanierungsgebiet Breisacher Hof“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.593
+    },
+    {
+      "n": 18,
+      "id": "paragraph-840ee24cb8940e1fc2a8f1-4",
+      "frage": "Wie würdest du mir die Regelung in § 4 der Freiburger Vorschrift „Benutzungssatzung für den Zentralen Dolmetschendenpool“ zum Thema „Schulungen“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.592
+    },
+    {
+      "n": 19,
+      "id": "paragraph-2c6dd6e8d17d3d2a24371b-8",
+      "frage": "Was bedeutet § 8 „Schlussvorschriften“ in „Ehrenordnung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 0,
+      "fehler": "ReadTimeout",
+      "korrekt": false,
+      "sekunden": 850.131
+    },
+    {
+      "n": 20,
+      "id": "paragraph-78585c645fc789423690f2-6",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Ortsrecht“ (§ 6) aus „Eingliederungsvereinbarung Ebnet“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.591
+    },
+    {
+      "n": 21,
+      "id": "paragraph-d67a51693cadac685970c7-8a",
+      "frage": "Wie würdest du mir die Regelung in § 8a der Freiburger Vorschrift „Wahlordnung für den Migrantinnenbeirat“ zum Thema „Einreichung von Wahlvorschlägen“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.663
+    },
+    {
+      "n": 22,
+      "id": "paragraph-96db827a06998cbd26b4b8-4",
+      "frage": "Was bedeutet § 4 „Aufgaben der Verbandsversammlung“ in „Verbandssatzung Regio-Nahverkehr Freiburg (ZRF)“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 0,
+      "fehler": "ReadTimeout",
+      "korrekt": false,
+      "sekunden": 850.13
+    },
+    {
+      "n": 23,
+      "id": "paragraph-234426ec23a8d10a7f8e7d-4",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Bedarfsdeckung“ (§ 4) aus „Gasgrundversorgungsverordnung“ in Freiburg.",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "dokument",
+      "cache": "aus",
+      "modellaufrufe": 2,
+      "antwort": "Der Kunde ist für die Dauer des Grundversorgungsvertrages verpflichtet, seinen gesamten leitungsgebundenen Gasbedarf aus den Gaslieferungen des Grundversorgers zu decken. [12.01 Gasgrundversorgungsverordnung · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E255148634/freiburg/daten/ortsrecht/12%20Energieversorgung/OrtsR_12_01.pdf#page=3)\n\nVon dieser Pflicht ausgenommen ist die Bedarfsdeckung durch Eigenanlagen zur Nutzung regenerativer Energiequellen. [12.01 Gasgrundversorgungsverordnung · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E255148634/freiburg/daten/ortsrecht/12%20Energieversorgung/OrtsR_12_01.pdf#page=3)",
+      "sekunden": 532.275
+    },
+    {
+      "n": 24,
+      "id": "paragraph-c444a0ae032009afb47972-8",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Befreiungen“ (§ 8) aus „Verordnung über das Landschaftsschutzgebiet Mooswald“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.617
+    },
+    {
+      "n": 25,
+      "id": "paragraph-da7b16f723817683c9ca12-16",
+      "frage": "Wie würdest du mir die Regelung in § 16 der Freiburger Vorschrift „Geschäftsordnung des Ortschaftsrats Lehen“ zum Thema „Verhandlungsniederschrift“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.614
+    },
+    {
+      "n": 26,
+      "id": "paragraph-fd04b5d9c4fbb01501907f-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „Richtlinien zur Beschäftigung arbeitsloser SozialhilfeempfängerInnen“ zum Thema „Art der Förderung“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.687
+    },
+    {
+      "n": 27,
+      "id": "paragraph-38ff92f8df8d86241eb815-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Gebührenpflicht“ (§ 1) aus „Sondernutzungsgebührensatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.629
+    },
+    {
+      "n": 28,
+      "id": "paragraph-16a8cc6f8fe94845892c66-30",
+      "frage": "Was bedeutet § 30 „Gebührensätze bei Anlieferung von Abfällen“ in „Abfallwirtschaftssatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.628
+    },
+    {
+      "n": 29,
+      "id": "paragraph-13b2556eb618031e30a5b8-1",
+      "frage": "Was bedeutet § 1 „Aufwandsentschädigung“ in „Entschädigungssatzung Zweckverband Gewerbepark Breisgau“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 200,
+      "korrekt": false,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für die Haushaltsauskunft brauche ich das Jahr. Für welches Haushaltsjahr möchtest du den Betrag wissen?",
+      "sekunden": 0.129
+    },
+    {
+      "n": 30,
+      "id": "paragraph-b8fd577376ddd52de8822f-13",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Sitzungsgelder und Aufwandsentschädigung“ (§ 13) aus „Satzung Abwasserzweckverband Staufener Bucht“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.629
+    },
+    {
+      "n": 31,
+      "id": "paragraph-c4bc16cf09dc14d31341e7-3",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Zuständigkeit des Hauptausschusses als Betriebsausschuss“ (§ 3) aus „Satzung über die Führung der Abfallwirtschaft als Eigenbetrieb“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.628
+    },
+    {
+      "n": 32,
+      "id": "paragraph-67f4834c3ed0e9ce360dfa-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Ehrungen für besondere sportliche Leistungen - Sportmedaille“ (§ 2) aus „Sport-Ehrungsrichtlinien“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.628
+    },
+    {
+      "n": 33,
+      "id": "paragraph-bf4062e1e0ca698db3ff4c-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „Verordnung des Ministeriums für Ländlichen Raum und Verbraucherschutz über das Biosphärengebiet Schwarzwald“ zum Thema „Räumliche Abgrenzung und Zonierung des Biosphärengebietes Schwarzwald“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.632
+    },
+    {
+      "n": 34,
+      "id": "paragraph-706cf57de762b236f8b053-2",
+      "frage": "Was bedeutet § 2 „Stiftungszweck“ in „Satzung der Adelhausenstiftung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.633
+    },
+    {
+      "n": 35,
+      "id": "paragraph-2c6dd6e8d17d3d2a24371b-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Allgemeines“ (§ 1) aus „Ehrenordnung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.632
+    },
+    {
+      "n": 36,
+      "id": "paragraph-d1da6337f527ddf69cb036-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Zweck des BGA“ (§ 2) aus „04.04.a Satzung Alters- und Wohnheime der Heiliggeistspitalstiftung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.632
+    },
+    {
+      "n": 37,
+      "id": "paragraph-78585c645fc789423690f2-1",
+      "frage": "Was bedeutet § 1 „Eingliederung“ in „Eingliederungsvereinbarung Ebnet“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.59
+    },
+    {
+      "n": 38,
+      "id": "paragraph-c39e673e783049ab394c32-16",
+      "frage": "Was bedeutet § 16 „Bemessung der Gebühren“ in „Benutzungssatzung der Unterkünfte für wohnungslose Personen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.681
+    },
+    {
+      "n": 39,
+      "id": "paragraph-aef7117cf03d8bdf8c2ef8-6",
+      "frage": "Was bedeutet § 6 „Wassergefährdende Stoffe, Abwasser, Abfall“ in „Verordnung zum Schutz des Grundwassers“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.589
+    },
+    {
+      "n": 40,
+      "id": "paragraph-1ef14dbba5e81f48248bbb-2",
+      "frage": "Was bedeutet § 2 „Besonderes Vorkaufsrecht“ in „Vorkaufssatzung für das Gebiet \"Kappler Straße, Littenweiler\"“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.678
+    },
+    {
+      "n": 41,
+      "id": "paragraph-97e6397ef973ffbdb4be4d-4",
+      "frage": "Was bedeutet § 4 „Vorberatung schriftlicher Vorlagen“ in „Geschäftsordnung des Ortschaftsrats Waltershofen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.637
+    },
+    {
+      "n": 42,
+      "id": "paragraph-b21d9037a5ea6508ffd788-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Begriff des Bürgervereins“ (§ 1) aus „Regelungen der Stadt Freiburg i. Br. zur finanziellen Förderung der Bürgervereine“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.638
+    },
+    {
+      "n": 43,
+      "id": "paragraph-6b678b40eb0fd430af379e-11",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Mitwirkungspflichten“ (§ 11) aus „Zweitwohnungsteuersatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.637
+    },
+    {
+      "n": 44,
+      "id": "paragraph-ef1ae751c205639a55c8cb-11",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Auskunfts- und Betretungsrecht“ (§ 11) aus „Satzung über das Verbot der Zweckentfremdung von Wohnraum“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.638
+    },
+    {
+      "n": 45,
+      "id": "paragraph-bc9ab75e01dca3726eabcc-11",
+      "frage": "Was bedeutet § 11 „Auslegung der Vereinbarung und Vertretung bei Streitigkeiten“ in „Eingliederungsvereinbarung Tiengen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.639
+    },
+    {
+      "n": 46,
+      "id": "paragraph-b8fd577376ddd52de8822f-15",
+      "frage": "Wie würdest du mir die Regelung in § 15 der Freiburger Vorschrift „Satzung Abwasserzweckverband Staufener Bucht“ zum Thema „Verteilungsmaßstäbe“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.589
+    },
+    {
+      "n": 47,
+      "id": "paragraph-de84e91aabd972edf371d3-3",
+      "frage": "Was bedeutet § 3 „Schutzzweck“ in „Verordnung über das Naturschutzgebiet Humbrühl-Rohrmatten“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.678
+    },
+    {
+      "n": 48,
+      "id": "paragraph-50505eeeb5e0bd34313597-10",
+      "frage": "Was bedeutet § 10 „Besondere Verpflichtungen und Zusagen der Stadt“ in „Eingliederungsvereinbarung Waltershofen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.637
+    },
+    {
+      "n": 49,
+      "id": "paragraph-28a5451569778acea0a95e-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Geltungsbereich“ (§ 1) aus „Vorkaufssatzung für das Gebiet \"Alois-Eckert-Straße\"“ in Freiburg.",
+      "http": 0,
+      "fehler": "ReadTimeout",
+      "korrekt": false,
+      "sekunden": 850.13
+    },
+    {
+      "n": 50,
+      "id": "paragraph-08eba6852c591a6da0ed0d-6",
+      "frage": "Wie würdest du mir die Regelung in § 6 der Freiburger Vorschrift „Weidesatzung“ zum Thema „Pflichten der Stadt“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.677
+    },
+    {
+      "n": 51,
+      "id": "paragraph-8f1fb6aca7c0f7d9e94f98-15",
+      "frage": "Wie würdest du mir die Regelung in § 15 der Freiburger Vorschrift „Geschäftsordnung der Verbandsversammlung des Regionalverbands Südlicher Oberrhein“ zum Thema „Sitzungen der Ausschüsse“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.59
+    },
+    {
+      "n": 52,
+      "id": "paragraph-385c9174d3e8e62bd73394-10",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Tierhaltung“ (§ 10) aus „Kleingartenordnung für Dauerkleingärten“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.646
+    },
+    {
+      "n": 53,
+      "id": "paragraph-ef1ae751c205639a55c8cb-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Zuständigkeit“ (§ 2) aus „Satzung über das Verbot der Zweckentfremdung von Wohnraum“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.684
+    },
+    {
+      "n": 54,
+      "id": "paragraph-291c528d6cd3a9225d745e-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Name und Zweck des Eigenbetriebes“ (§ 1) aus „Satzung Neubau Verwaltungszentrum, Staudinger- und Tunibergschule als Eigenbetrieb“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.68
+    },
+    {
+      "n": 55,
+      "id": "paragraph-d5764f391b156042827bfb-7",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Entstehung und Fälligkeit“ (§ 7) aus „Gutachterausschussgebührensatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.59
+    },
+    {
+      "n": 56,
+      "id": "paragraph-d67a51693cadac685970c7-4",
+      "frage": "Wie würdest du mir die Regelung in § 4 der Freiburger Vorschrift „Wahlordnung für den Migrantinnenbeirat“ zum Thema „Wählbarkeit“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.687
+    },
+    {
+      "n": 57,
+      "id": "paragraph-bcfc4d8d8fc448ebd81601-5",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Abrechnungsgebiet“ (§ 5) aus „Satzung über die Erhebung von Erschließungsbeiträgen entlang der Güterbahnlinie zum Schutz des Bebauungsplangebietes \"Innere Elben\"“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.681
+    },
+    {
+      "n": 58,
+      "id": "paragraph-96db827a06998cbd26b4b8-14",
+      "frage": "Wie würdest du mir die Regelung in § 14 der Freiburger Vorschrift „Verbandssatzung Regio-Nahverkehr Freiburg (ZRF)“ zum Thema „Deckung des Finanzbedarfs“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.679
+    },
+    {
+      "n": 59,
+      "id": "paragraph-a9b2e654cf3af420c3179b-5",
+      "frage": "Was bedeutet § 5 „Beförderung von Tieren und Gepäck“ in „Taxentarif“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.589
+    },
+    {
+      "n": 60,
+      "id": "paragraph-234426ec23a8d10a7f8e7d-11",
+      "frage": "Was bedeutet § 11 „Ablesung“ in „Gasgrundversorgungsverordnung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.678
+    },
+    {
+      "n": 61,
+      "id": "paragraph-0a3620b064aae7561636a5-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „1. Ortsrecht-Anpassungssatzung (Lehen und Opfingen)“ zum Thema „Inkraftsetzung und Aufhebung von Satzungen“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.643
+    },
+    {
+      "n": 62,
+      "id": "paragraph-98522d77a484e9280b8012-4",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Beginn und Ende der Nutzung“ (§ 4) aus „Benutzungssatzung der Unterkünfte für Geflüchtete und Spätaussiedler“ in Freiburg.",
+      "http": 0,
+      "fehler": "ReadTimeout",
+      "korrekt": false,
+      "sekunden": 850.129
+    },
+    {
+      "n": 63,
+      "id": "paragraph-3ba69e55321acb7922b069-3",
+      "frage": "Wie würdest du mir die Regelung in § 3 der Freiburger Vorschrift „Bewohnerparkgebührenverordnung“ zum Thema „Gebührenzeitraum“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.678
+    },
+    {
+      "n": 64,
+      "id": "paragraph-20e68fffd43b72dc5e8c8a-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „Erhaltungssatzung \"St. Georgen - Imberyweg / Am Mettweg\"“ zum Thema „Sachlicher Geltungsbereich“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.687
+    },
+    {
+      "n": 65,
+      "id": "paragraph-d67a51693cadac685970c7-5c",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Wahlvorstand in den Wahlbezirken“ (§ 5c) aus „Wahlordnung für den Migrantinnenbeirat“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.642
+    },
+    {
+      "n": 66,
+      "id": "paragraph-da7b16f723817683c9ca12-13",
+      "frage": "Wie würdest du mir die Regelung in § 13 der Freiburger Vorschrift „Geschäftsordnung des Ortschaftsrats Lehen“ zum Thema „Reihenfolge der Abstimmung über Anträge“ erklären? Bitte nenne die Originalseite.",
+      "http": 0,
+      "fehler": "ReadTimeout",
+      "korrekt": false,
+      "sekunden": 850.126
+    },
+    {
+      "n": 67,
+      "id": "paragraph-350eefbe49f6180d315534-9",
+      "frage": "Was bedeutet § 9 „Ordnungswidrigkeiten“ in „Baumschutzsatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.645
+    },
+    {
+      "n": 68,
+      "id": "paragraph-ab66156d82b3d3f3dd6803-11",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Abteilungskommandant_in und Abteilungsausschuss“ (§ 11) aus „Feuerwehrsatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.677
+    },
+    {
+      "n": 69,
+      "id": "paragraph-7a0515e7401fc0e58f27ce-18",
+      "frage": "Wie würdest du mir die Regelung in § 18 der Freiburger Vorschrift „Verbandssatzung des Entwässerungsverbandes Batzenberg-Süd“ zum Thema „Auflösung des Zweckverbandes“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.589
+    },
+    {
+      "n": 70,
+      "id": "paragraph-6241cddbdd5be5921f9bb6-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „Verodnung über das Naturschutzgebiet Schangen-Dierloch“ zum Thema „Schutzgegenstand“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.589
+    },
+    {
+      "n": 71,
+      "id": "paragraph-97e6397ef973ffbdb4be4d-9",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Berichterstattung im Ortschaftsrat“ (§ 9) aus „Geschäftsordnung des Ortschaftsrats Waltershofen“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.678
+    },
+    {
+      "n": 72,
+      "id": "paragraph-e23c85027d06f46bf8ac59-4",
+      "frage": "Was bedeutet § 4 „Betriebsausschuss“ in „Eigenbetriebssatzung Friedhöfe“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.641
+    },
+    {
+      "n": 73,
+      "id": "paragraph-e736de8b46de873609669a-6",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Ausscheiden der Mitglieder“ (§ 6) aus „Migrantinnenbeiratssatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.59
+    },
+    {
+      "n": 74,
+      "id": "paragraph-f0b05e410c2837f3f79d06-13",
+      "frage": "Was bedeutet § 13 „Berechnung des leistungsbezogenen Zuschusses“ in „Richtlinien zur Förderung von Kindertageseinrichtungen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.646
+    },
+    {
+      "n": 75,
+      "id": "paragraph-24bfb638a752d25798664b-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Entschädigung für Stadträt*innen“ (§ 2) aus „Satzung über die Entschädigung für ehrenamtliche Tätigkeit“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.645
+    },
+    {
+      "n": 76,
+      "id": "paragraph-49e6cd72fa22ba09ad15cb-5",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Art der Versorgung“ (§ 5) aus „Stromgrundversorgungsverordnung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.677
+    },
+    {
+      "n": 77,
+      "id": "paragraph-ab66156d82b3d3f3dd6803-21",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Ausscheiden und Beendigung der Mitgliedschaft“ (§ 21) aus „Feuerwehrsatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.589
+    },
+    {
+      "n": 78,
+      "id": "paragraph-485a73b046ba0570ecec5d-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „Erhaltungssatzung der südöstlichen Altstadt“ zum Thema „Genehmigungsvorbehalt“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.646
+    },
+    {
+      "n": 79,
+      "id": "paragraph-38ff92f8df8d86241eb815-8",
+      "frage": "Was bedeutet § 8 „In-Kraft-Treten“ in „Sondernutzungsgebührensatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.684
+    },
+    {
+      "n": 80,
+      "id": "paragraph-b8fd577376ddd52de8822f-4",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Verbandsaufgaben“ (§ 4) aus „Satzung Abwasserzweckverband Staufener Bucht“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.644
+    },
+    {
+      "n": 81,
+      "id": "paragraph-31f6f6b4f3f590f3b5f7f8-1",
+      "frage": "Was bedeutet § 1 „Träger des Betriebes“ in „04.06.a Satzung der Jugendhilfe der Waisenhausstiftung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.589
+    },
+    {
+      "n": 82,
+      "id": "paragraph-ab66156d82b3d3f3dd6803-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Gliederung“ (§ 2) aus „Feuerwehrsatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.644
+    },
+    {
+      "n": 83,
+      "id": "paragraph-7a0515e7401fc0e58f27ce-4",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Aufgabe des Zweckverbandes“ (§ 4) aus „Verbandssatzung des Entwässerungsverbandes Batzenberg-Süd“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.645
+    },
+    {
+      "n": 84,
+      "id": "paragraph-8bc74e23eb1daf67889929-7",
+      "frage": "Was bedeutet § 7 „Geschäftsgang“ in „Satzung der Dr.-Leo-Ricker-Stiftung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 0,
+      "fehler": "ReadTimeout",
+      "korrekt": false,
+      "sekunden": 850.129
+    },
+    {
+      "n": 85,
+      "id": "paragraph-9bb3504969481f4e1f2b87-10",
+      "frage": "Wie würdest du mir die Regelung in § 10 der Freiburger Vorschrift „Geschäftsordnung des Gemeinderats“ zum Thema „Berichterstattung im Gemeinderat“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.593
+    },
+    {
+      "n": 86,
+      "id": "paragraph-bc9ab75e01dca3726eabcc-4",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Einführung der Ortschaftsverfassung“ (§ 4) aus „Eingliederungsvereinbarung Tiengen“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.594
+    },
+    {
+      "n": 87,
+      "id": "paragraph-50505eeeb5e0bd34313597-3",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Rechte und Pflichten der Bürger und Einwohner“ (§ 3) aus „Eingliederungsvereinbarung Waltershofen“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.648
+    },
+    {
+      "n": 88,
+      "id": "paragraph-fec93742d3286f22b36212-5",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Aufwandsentschädigung“ (§ 5) aus „Satzung über de Errichtung eines Digitalisierungsbeirats“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.595
+    },
+    {
+      "n": 89,
+      "id": "paragraph-da7b16f723817683c9ca12-5",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Öffentlichkeit der Sitzungen“ (§ 5) aus „Geschäftsordnung des Ortschaftsrats Lehen“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.645
+    },
+    {
+      "n": 90,
+      "id": "paragraph-01ec07382940afd08d83e0-11",
+      "frage": "Was bedeutet § 11 „Verbandsvorstand“ in „Stadtfeuerwehrverbandssatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.682
+    },
+    {
+      "n": 91,
+      "id": "paragraph-6e3d294acb15a1da4d6132-14",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Auflösung des Zweckverbands“ (§ 14) aus „Verbandssatzung Gewerbepark Breisgau“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.598
+    },
+    {
+      "n": 92,
+      "id": "paragraph-af7484372118505c723a8a-3",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Mitglieder“ (§ 3) aus „Behindertenbeiratssatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.646
+    },
+    {
+      "n": 93,
+      "id": "paragraph-9bb3504969481f4e1f2b87-3",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Ältestenrat“ (§ 3) aus „Geschäftsordnung des Gemeinderats“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.645
+    },
+    {
+      "n": 94,
+      "id": "paragraph-426cdf8df8a786e8c7c9dd-7",
+      "frage": "Was bedeutet § 7 „Verhalten auf den Friedhöfen“ in „Friedhofssatzung der Stadt Freiburg i.Br.“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.646
+    },
+    {
+      "n": 95,
+      "id": "paragraph-98522d77a484e9280b8012-20",
+      "frage": "Was bedeutet § 20 „Pauschalbeträge nach Asylbewerberleistungsgesetz“ in „Benutzungssatzung der Unterkünfte für Geflüchtete und Spätaussiedler“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.595
+    },
+    {
+      "n": 96,
+      "id": "paragraph-b6a7cab5716639f6b9d51d-10",
+      "frage": "Wie würdest du mir die Regelung in § 10 der Freiburger Vorschrift „Verordnung über das Natur- und Landschaftsschutzgebiet Schauinsland“ zum Thema „Schutz- und Pflegemaßnahmen“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.676
+    },
+    {
+      "n": 97,
+      "id": "paragraph-289cc8359437ebe2c16769-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „Vorkaufssatzung für das Gebiet \"Weiterführende Schule am Tuniberg\"“ zum Thema „Besonderes Vorkaufsrecht“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.552
+    },
+    {
+      "n": 98,
+      "id": "paragraph-2ab356069b4af32144a6e9-34",
+      "frage": "Wie würdest du mir die Regelung in § 34 der Freiburger Vorschrift „Allgemeine Bedingungen für die Wasserversorgung“ zum Thema „Gerichtsstand“ erklären? Bitte nenne die Originalseite.",
+      "http": 0,
+      "fehler": "ReadTimeout",
+      "korrekt": false,
+      "sekunden": 850.098
+    },
+    {
+      "n": 99,
+      "id": "paragraph-ddb0d3045d9a1089fd133f-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Steuergegenstand“ (§ 2) aus „Vergnügungsteuersatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.682
+    },
+    {
+      "n": 100,
+      "id": "paragraph-562841f527c47e9aa66726-1",
+      "frage": "Was bedeutet § 1 „Räumlicher Geltungsbereich“ in „Verordnung Überschwemmungsgebiet Eschbach“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.646
+    },
+    {
+      "n": 101,
+      "id": "paragraph-6af5a230298e1c8105bea0-1",
+      "frage": "Was bedeutet § 1 „Name, Rechtsform, Sitz“ in „Satzung der Franz-Xaver- und Emma-Seiler-Stiftung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.646
+    },
+    {
+      "n": 102,
+      "id": "paragraph-291c528d6cd3a9225d745e-5",
+      "frage": "Was bedeutet § 5 „Betriebsausschuss“ in „Satzung Neubau Verwaltungszentrum, Staudinger- und Tunibergschule als Eigenbetrieb“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.648
+    },
+    {
+      "n": 103,
+      "id": "paragraph-a71c75a4d66c6b12f4b395-5",
+      "frage": "Was bedeutet § 5 „Gebührenhöhe“ in „Satzung für Bau- und Wohnwagen im Eselswinkel“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.682
+    },
+    {
+      "n": 104,
+      "id": "paragraph-f41ab268b4dea62aeeff61-10",
+      "frage": "Wie würdest du mir die Regelung in § 10 der Freiburger Vorschrift „Stadtentwässerungssatzung“ zum Thema „Einleitungsbeschränkungen“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.645
+    },
+    {
+      "n": 105,
+      "id": "paragraph-79e8aeab3122e9d6dc751f-10",
+      "frage": "Was bedeutet § 10 „Tierhaltung“ in „Kleingartenordnung für städtische Zeitgärten“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.555
+    },
+    {
+      "n": 106,
+      "id": "paragraph-bf8ea77d3e68b56af3597f-5",
+      "frage": "Wie würdest du mir die Regelung in § 5 der Freiburger Vorschrift „Taxenordnung“ zum Thema „Erhebung des Beförderungsentgeltes“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.598
+    },
+    {
+      "n": 107,
+      "id": "paragraph-dde38715a674a0e544048c-15",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Abrechnungsverfahren“ (§ 15) aus „Satzung über die Erstattung der Schülerbeförderungskosten“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.596
+    },
+    {
+      "n": 108,
+      "id": "paragraph-95204e17976eccdd8a98f0-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Schutzbestimmungen der Schutzgebiets- und Ausgleichs-Verordnung“ (§ 2) aus „Wasserschutzgebietsverordnung Hausen“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.597
+    },
+    {
+      "n": 109,
+      "id": "paragraph-de84e91aabd972edf371d3-6",
+      "frage": "Was bedeutet § 6 „Schutz- und Pflegemaßnahmen“ in „Verordnung über das Naturschutzgebiet Humbrühl-Rohrmatten“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.648
+    },
+    {
+      "n": 110,
+      "id": "paragraph-49e6cd72fa22ba09ad15cb-21",
+      "frage": "Was bedeutet § 21 „Fristlose Kündigung“ in „Stromgrundversorgungsverordnung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.682
+    },
+    {
+      "n": 111,
+      "id": "paragraph-892009e1884f73994a7b3e-4",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Ordnungswidrigkeiten“ (§ 4) aus „Erhaltungssatzung \"Haslach - Uferstraße / Haslacher Straße\"“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.652
+    },
+    {
+      "n": 112,
+      "id": "paragraph-f28032fa355957f606f232-1",
+      "frage": "Wie würdest du mir die Regelung in § 1 der Freiburger Vorschrift „Vorkaufssatzung für das Gebiet \"Gewerbegebiet Mooswald\"“ zum Thema „Geltungsbereich“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.676
+    },
+    {
+      "n": 113,
+      "id": "paragraph-5e4378d9b1cc903c833243-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „Verordnung zum Schutz von Naturdenkmalen vom 24.03.1998“ zum Thema „Verbote“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.647
+    },
+    {
+      "n": 114,
+      "id": "paragraph-b8fd577376ddd52de8822f-6",
+      "frage": "Wie würdest du mir die Regelung in § 6 der Freiburger Vorschrift „Satzung Abwasserzweckverband Staufener Bucht“ zum Thema „Anzeigepflicht der Verbandsmitglieder“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.647
+    },
+    {
+      "n": 115,
+      "id": "paragraph-944994f5cd15c6f2ba2d18-3",
+      "frage": "Wie würdest du mir die Regelung in § 3 der Freiburger Vorschrift „Übernachtungsteuersatzung“ zum Thema „Bemessungsgrundlage“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.595
+    },
+    {
+      "n": 116,
+      "id": "paragraph-33c3a7e970bd3304ece260-11",
+      "frage": "Was bedeutet § 11 „Vermittlung des Kindes zu einer geeigneten Kindertagespflegeperson“ in „Richtlinien zur Förderung von Kindern in Kindertagespflege“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.646
+    },
+    {
+      "n": 117,
+      "id": "paragraph-50505eeeb5e0bd34313597-1",
+      "frage": "Was bedeutet § 1 „Eingliederung“ in „Eingliederungsvereinbarung Waltershofen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.679
+    },
+    {
+      "n": 118,
+      "id": "paragraph-386abf77d0879633bb52db-1",
+      "frage": "Wie würdest du mir die Regelung in § 1 der Freiburger Vorschrift „Geschäftsordnung des Ortschaftsrats Tiengen“ zum Thema „Vorsitz“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.675
+    },
+    {
+      "n": 119,
+      "id": "paragraph-5b96f01ba72d536ed4389a-12",
+      "frage": "Wie würdest du mir die Regelung in § 12 der Freiburger Vorschrift „Kommunalstatistiksatzung“ zum Thema „Weitergabe von Merkmalen für die Statistik über die geförderten“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.65
+    },
+    {
+      "n": 120,
+      "id": "paragraph-8c32e5de8d8401aa3f4b63-5",
+      "frage": "Wie würdest du mir die Regelung in § 5 der Freiburger Vorschrift „Öffentlich-rechtliche Vereinbarung über die gegenseitige Aufnahme und Kostenbeteiligung von Schülerinnen und Schülern aus dem Landkreis und der Stadt in die Sonderpädagogischen Bildungs- und Beratungszentren für geistige Entwicklung (SBBZ GEnt) im Landkreis Breisgau-Hochschwarzwald und in der Stadt Freiburg gemäß § 25 Abs. 4 SchulG“ zum Thema „Kostenermittlung“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.539
+    },
+    {
+      "n": 121,
+      "id": "paragraph-f0b05e410c2837f3f79d06-17",
+      "frage": "Wie würdest du mir die Regelung in § 17 der Freiburger Vorschrift „Richtlinien zur Förderung von Kindertageseinrichtungen“ zum Thema „Förderung von baulichen Instandsetzungsmaßnahmen“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.649
+    },
+    {
+      "n": 122,
+      "id": "paragraph-e736de8b46de873609669a-9",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Kommissionen“ (§ 9) aus „Migrantinnenbeiratssatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.604
+    },
+    {
+      "n": 123,
+      "id": "paragraph-2ab356069b4af32144a6e9-17",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Technische Anschlussbedingungen“ (§ 17) aus „Allgemeine Bedingungen für die Wasserversorgung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.677
+    },
+    {
+      "n": 124,
+      "id": "paragraph-aef7117cf03d8bdf8c2ef8-12",
+      "frage": "Was bedeutet § 12 „In-Kraft-Treten“ in „Verordnung zum Schutz des Grundwassers“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.647
+    },
+    {
+      "n": 125,
+      "id": "paragraph-9f4c6c5f1ea110c44b03ce-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Inkraftsetzung und Aufhebung von Satzungen“ (§ 1) aus „6. Ortsrecht-Anpassungssatzung (Hochdorf)“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.68
+    },
+    {
+      "n": 126,
+      "id": "paragraph-50505eeeb5e0bd34313597-11",
+      "frage": "Wie würdest du mir die Regelung in § 11 der Freiburger Vorschrift „Eingliederungsvereinbarung Waltershofen“ zum Thema „Auslegung der Vereinbarung und Vertretung bei Streitigkeiten“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.65
+    },
+    {
+      "n": 127,
+      "id": "paragraph-33c3a7e970bd3304ece260-3",
+      "frage": "Wie würdest du mir die Regelung in § 3 der Freiburger Vorschrift „Richtlinien zur Förderung von Kindern in Kindertagespflege“ zum Thema „Förderung der Kindertagespflege“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.679
+    },
+    {
+      "n": 128,
+      "id": "paragraph-562841f527c47e9aa66726-4",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Einzelfallanordnungen“ (§ 4) aus „Verordnung Überschwemmungsgebiet Eschbach“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.595
+    },
+    {
+      "n": 129,
+      "id": "paragraph-c948a1bdbf09bb447b2f3a-9",
+      "frage": "Wie würdest du mir die Regelung in § 9 der Freiburger Vorschrift „Satzung der Michael-Denzlinger-Stiftung“ zum Thema „Aufhebung der Stiftung“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.678
+    },
+    {
+      "n": 130,
+      "id": "paragraph-da7b16f723817683c9ca12-1",
+      "frage": "Wie würdest du mir die Regelung in § 1 der Freiburger Vorschrift „Geschäftsordnung des Ortschaftsrats Lehen“ zum Thema „Vorsitz“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.599
+    },
+    {
+      "n": 131,
+      "id": "paragraph-386abf77d0879633bb52db-11",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Schluss- und Vertagungsantrag“ (§ 11) aus „Geschäftsordnung des Ortschaftsrats Tiengen“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.601
+    },
+    {
+      "n": 132,
+      "id": "paragraph-20e68fffd43b72dc5e8c8a-4",
+      "frage": "Was bedeutet § 4 „Ordnungswidrigkeiten“ in „Erhaltungssatzung \"St. Georgen - Imberyweg / Am Mettweg\"“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.562
+    },
+    {
+      "n": 133,
+      "id": "paragraph-386abf77d0879633bb52db-9",
+      "frage": "Was bedeutet § 9 „Berichterstattung im Ortschaftsrat“ in „Geschäftsordnung des Ortschaftsrats Tiengen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.648
+    },
+    {
+      "n": 134,
+      "id": "paragraph-8c5d718f4fe78cf33cb8cb-21",
+      "frage": "Was bedeutet § 21 „Sonderregelungen“ in „Zweckverbandssatzung Kommunale Informationsverarbeitung Baden-Franken“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.6
+    },
+    {
+      "n": 135,
+      "id": "paragraph-426cdf8df8a786e8c7c9dd-9",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Leichenhallen“ (§ 9) aus „Friedhofssatzung der Stadt Freiburg i.Br.“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.564
+    },
+    {
+      "n": 136,
+      "id": "paragraph-32caabf7d02654324d40df-13",
+      "frage": "Wie würdest du mir die Regelung in § 13 der Freiburger Vorschrift „Satzung über die Führung des Theaters Freiburg als Eigenbetrieb“ zum Thema „Rechnungsprüfung“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.606
+    },
+    {
+      "n": 137,
+      "id": "paragraph-8c5d718f4fe78cf33cb8cb-14",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Wahl des Verbandsvorsitzenden“ (§ 14) aus „Zweckverbandssatzung Kommunale Informationsverarbeitung Baden-Franken“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.647
+    },
+    {
+      "n": 138,
+      "id": "paragraph-b6a7cab5716639f6b9d51d-11",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Befreiungen“ (§ 11) aus „Verordnung über das Natur- und Landschaftsschutzgebiet Schauinsland“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.647
+    },
+    {
+      "n": 139,
+      "id": "paragraph-ab66156d82b3d3f3dd6803-25",
+      "frage": "Was bedeutet § 25 „Jahreshauptversammlung“ in „Feuerwehrsatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.601
+    },
+    {
+      "n": 140,
+      "id": "paragraph-514e4a58f031b84cf48946-6",
+      "frage": "Was bedeutet § 6 „Andere Räumlichkeiten“ in „Richtlinien für die Überlassung von öffentlichen Einrichtungen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.679
+    },
+    {
+      "n": 141,
+      "id": "paragraph-733834a9ce804b128cf9ab-6",
+      "frage": "Was bedeutet § 6 „Entstehung, Fälligkeit, Zahlung“ in „Verwaltungsgebührensatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.604
+    },
+    {
+      "n": 142,
+      "id": "paragraph-646bae5c69186d7e855a38-9",
+      "frage": "Wie würdest du mir die Regelung in § 9 der Freiburger Vorschrift „Satzung der Stiftung Innovationsallianz Freiburg“ zum Thema „Fachlicher Beirat“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.649
+    },
+    {
+      "n": 143,
+      "id": "paragraph-a9b2e654cf3af420c3179b-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Geltungsbereich“ (§ 1) aus „Taxentarif“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.647
+    },
+    {
+      "n": 144,
+      "id": "paragraph-2ab356069b4af32144a6e9-36",
+      "frage": "Was bedeutet § 36 „Berlin-Klausel“ in „Allgemeine Bedingungen für die Wasserversorgung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.638
+    },
+    {
+      "n": 145,
+      "id": "paragraph-892009e1884f73994a7b3e-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Satzungsziel, Räumlicher Geltungsbereich“ (§ 1) aus „Erhaltungssatzung \"Haslach - Uferstraße / Haslacher Straße\"“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.552
+    },
+    {
+      "n": 146,
+      "id": "paragraph-3153ea3e63a8b0852805af-3",
+      "frage": "Was bedeutet § 3 „Verbote“ in „Verordnung zum Schutz eines Naturdenkmals (Eichenbestand Eichhalde) vom 19.07.2004“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.557
+    },
+    {
+      "n": 147,
+      "id": "paragraph-426cdf8df8a786e8c7c9dd-41",
+      "frage": "Wie würdest du mir die Regelung in § 41 der Freiburger Vorschrift „Friedhofssatzung der Stadt Freiburg i.Br.“ zum Thema „Alte Rechte“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.649
+    },
+    {
+      "n": 148,
+      "id": "paragraph-0c93df50773d862ec1a575-9",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Zuständigkeit“ (§ 9) aus „Satzung über den Anschluss an die öffentliche Wasserversorgungsanlage“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.556
+    },
+    {
+      "n": 149,
+      "id": "paragraph-13b701416a832156d1e782-7",
+      "frage": "Wie würdest du mir die Regelung in § 7 der Freiburger Vorschrift „Satzung über Erhebung von Erschließungsbeiträgen \"Alt-Betzenhausen-West\"“ zum Thema „Schallschutzwerte“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.604
+    },
+    {
+      "n": 150,
+      "id": "paragraph-0f34e97b4260e7d9980fee-1",
+      "frage": "Wie würdest du mir die Regelung in § 1 der Freiburger Vorschrift „Vorkaufssatzung für das Gebiet \"Zähringen Nord\"“ zum Thema „Geltungsbereich“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.566
+    },
+    {
+      "n": 151,
+      "id": "paragraph-16a8cc6f8fe94845892c66-26",
+      "frage": "Wie würdest du mir die Regelung in § 26 der Freiburger Vorschrift „Abfallwirtschaftssatzung“ zum Thema „Gebührenschuldner“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.558
+    },
+    {
+      "n": 152,
+      "id": "paragraph-65962e452d599b786f2855-1",
+      "frage": "Wie würdest du mir die Regelung in § 1 der Freiburger Vorschrift „Geschäftsordnung des Ortschaftsrats Munzingen“ zum Thema „Vorsitz“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.554
+    },
+    {
+      "n": 153,
+      "id": "paragraph-f41ab268b4dea62aeeff61-39",
+      "frage": "Was bedeutet § 39 „Vorausleistung“ in „Stadtentwässerungssatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.597
+    },
+    {
+      "n": 154,
+      "id": "paragraph-b8fd577376ddd52de8822f-23",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Öffentliche Bekanntmachungen“ (§ 23) aus „Satzung Abwasserzweckverband Staufener Bucht“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.552
+    },
+    {
+      "n": 155,
+      "id": "paragraph-a71c75a4d66c6b12f4b395-6",
+      "frage": "Wie würdest du mir die Regelung in § 6 der Freiburger Vorschrift „Satzung für Bau- und Wohnwagen im Eselswinkel“ zum Thema „Entstehung, Festsetzung und Fälligkeit der Gebühren“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.68
+    },
+    {
+      "n": 156,
+      "id": "paragraph-2ab356069b4af32144a6e9-13",
+      "frage": "Wie würdest du mir die Regelung in § 13 der Freiburger Vorschrift „Allgemeine Bedingungen für die Wasserversorgung“ zum Thema „Inbetriebsetzung der Kundenanlage“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.554
+    },
+    {
+      "n": 157,
+      "id": "paragraph-b21d9037a5ea6508ffd788-2",
+      "frage": "Was bedeutet § 2 „Aufnahme von Vereinen in die städtische Förderung“ in „Regelungen der Stadt Freiburg i. Br. zur finanziellen Förderung der Bürgervereine“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.555
+    },
+    {
+      "n": 158,
+      "id": "paragraph-65962e452d599b786f2855-19",
+      "frage": "Was bedeutet § 19 „Ausschüsse“ in „Geschäftsordnung des Ortschaftsrats Munzingen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.552
+    },
+    {
+      "n": 159,
+      "id": "paragraph-49e6cd72fa22ba09ad15cb-3",
+      "frage": "Was bedeutet § 3 „Ersatzversorgung“ in „Stromgrundversorgungsverordnung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.569
+    },
+    {
+      "n": 160,
+      "id": "paragraph-3153ea3e63a8b0852805af-4",
+      "frage": "Wie würdest du mir die Regelung in § 4 der Freiburger Vorschrift „Verordnung zum Schutz eines Naturdenkmals (Eichenbestand Eichhalde) vom 19.07.2004“ zum Thema „Zulässige Handlungen“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.554
+    },
+    {
+      "n": 161,
+      "id": "paragraph-d67a51693cadac685970c7-5d",
+      "frage": "Was bedeutet § 5d „Wahlvorstand für die Online-Wahl“ in „Wahlordnung für den Migrantinnenbeirat“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.649
+    },
+    {
+      "n": 162,
+      "id": "paragraph-e4da854d868200d619e275-7",
+      "frage": "Wie würdest du mir die Regelung in § 7 der Freiburger Vorschrift „Geschäftsordnung des Ortschaftsrats Opfingen“ zum Thema „Beschlussfähigkeit“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.597
+    },
+    {
+      "n": 163,
+      "id": "paragraph-33c3a7e970bd3304ece260-9",
+      "frage": "Wie würdest du mir die Regelung in § 9 der Freiburger Vorschrift „Richtlinien zur Förderung von Kindern in Kindertagespflege“ zum Thema „Pflegeerlaubnis“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.551
+    },
+    {
+      "n": 164,
+      "id": "paragraph-8bc74e23eb1daf67889929-8",
+      "frage": "Wie würdest du mir die Regelung in § 8 der Freiburger Vorschrift „Satzung der Dr.-Leo-Ricker-Stiftung“ zum Thema „Satzungsänderung“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.554
+    },
+    {
+      "n": 165,
+      "id": "paragraph-562841f527c47e9aa66726-3",
+      "frage": "Wie würdest du mir die Regelung in § 3 der Freiburger Vorschrift „Verordnung Überschwemmungsgebiet Eschbach“ zum Thema „Genehmigungspflichtige Tatbestände“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.562
+    },
+    {
+      "n": 166,
+      "id": "paragraph-650d16b5810cc52883689a-7",
+      "frage": "Wie würdest du mir die Regelung in § 7 der Freiburger Vorschrift „Verordnung zum Schutz des Naturdenkmals Nr. 127 vom 28.04.2007“ zum Thema „In-Kraft-Treten“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.554
+    },
+    {
+      "n": 167,
+      "id": "paragraph-32caabf7d02654324d40df-8",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Die/Der Oberbürgermeister_in“ (§ 8) aus „Satzung über die Führung des Theaters Freiburg als Eigenbetrieb“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.603
+    },
+    {
+      "n": 168,
+      "id": "paragraph-f0b05e410c2837f3f79d06-16",
+      "frage": "Was bedeutet § 16 „Verfahren und Bezuschussung“ in „Richtlinien zur Förderung von Kindertageseinrichtungen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.558
+    },
+    {
+      "n": 169,
+      "id": "paragraph-2ab356069b4af32144a6e9-33",
+      "frage": "Was bedeutet § 33 „Einstellung der Versorgung, fristlose Kündigung“ in „Allgemeine Bedingungen für die Wasserversorgung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.552
+    },
+    {
+      "n": 170,
+      "id": "paragraph-f41ab268b4dea62aeeff61-8",
+      "frage": "Was bedeutet § 8 „Kostenersatz für Anschlusskanäle“ in „Stadtentwässerungssatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.556
+    },
+    {
+      "n": 171,
+      "id": "paragraph-f1d17ca61774945eae82dd-10",
+      "frage": "Wie würdest du mir die Regelung in § 10 der Freiburger Vorschrift „Eingliederungsvereinbarung Opfingen“ zum Thema „Besondere Verpflichtungen und Zusagen der Stadt“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.597
+    },
+    {
+      "n": 172,
+      "id": "paragraph-96db827a06998cbd26b4b8-18",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Schiedsstelle“ (§ 18) aus „Verbandssatzung Regio-Nahverkehr Freiburg (ZRF)“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.564
+    },
+    {
+      "n": 173,
+      "id": "paragraph-28005a19b7734dc924d34e-10",
+      "frage": "Was bedeutet § 10 „Mobilitätsausschuss“ in „Hauptsatzung“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.563
+    },
+    {
+      "n": 174,
+      "id": "paragraph-3153ea3e63a8b0852805af-6",
+      "frage": "Was bedeutet § 6 „Befreiungen“ in „Verordnung zum Schutz eines Naturdenkmals (Eichenbestand Eichhalde) vom 19.07.2004“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "dokument",
+      "cache": "aus",
+      "modellaufrufe": 2,
+      "antwort": "Von den Vorschriften der Verordnung kann nach §§ 62, 63 NatSchG von der unteren Naturschutzbehörde Befreiung erteilt werden. [11.03.03 Verordnung zum Schutz eines Naturdenkmals (Eichenbestand Eichhalde) vom 19.07.2004 · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-966296370/freiburg/daten/ortsrecht/11%20Landschafts-%20und%20Naturschutz/OrtsR_11_03_03.pdf#page=3)",
+      "sekunden": 791.305
+    },
+    {
+      "n": 175,
+      "id": "paragraph-08eba6852c591a6da0ed0d-3",
+      "frage": "Wie würdest du mir die Regelung in § 3 der Freiburger Vorschrift „Weidesatzung“ zum Thema „Weidegeld, Arbeitsleistungen“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.563
+    },
+    {
+      "n": 176,
+      "id": "paragraph-7ba8dfd54e88b24e1e04bf-5",
+      "frage": "Was bedeutet § 5 „Verfahren“ in „Satzung über die Finanzierung der Gemeinderatsfraktionen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "dokument",
+      "cache": "aus",
+      "modellaufrufe": 2,
+      "antwort": "Das Personal- und Sachkostenbudget wird monatlich zu einem Zwölftel des Jahresbetrages als Vorschuss ausgezahlt. [01.04 Satzung über die Finanzierung der Gemeinderatsfraktionen · PDF-Seite 5](https://www.freiburg.de/pb/site/Freiburg/get/documents_E783791759/freiburg/daten/ortsrecht/01%20Gemeinderat/OrtsR_01_04.pdf#page=5)\n\nNach Ablauf des Abrechnungszeitraums müssen Beschäftigungsnachweise vorgelegt werden, wobei Überschüsse oder Defizite mit dem Sachkostenbudget verrechnet werden können. [01.04 Satzung über die Finanzierung der Gemeinderatsfraktionen · PDF-Seite 5](https://www.freiburg.de/pb/site/Freiburg/get/documents_E783791759/freiburg/daten/ortsrecht/01%20Gemeinderat/OrtsR_01_04.pdf#page=5)",
+      "sekunden": 713.289
+    },
+    {
+      "n": 177,
+      "id": "paragraph-d67a51693cadac685970c7-10a",
+      "frage": "Was bedeutet § 10a „Online-Wahl“ in „Wahlordnung für den Migrantinnenbeirat“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.553
+    },
+    {
+      "n": 178,
+      "id": "paragraph-385c9174d3e8e62bd73394-14",
+      "frage": "Was bedeutet § 14 „Kündigung“ in „Kleingartenordnung für Dauerkleingärten“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.558
+    },
+    {
+      "n": 179,
+      "id": "paragraph-650d16b5810cc52883689a-5",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Befreiungen“ (§ 5) aus „Verordnung zum Schutz des Naturdenkmals Nr. 127 vom 28.04.2007“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.556
+    },
+    {
+      "n": 180,
+      "id": "paragraph-f65285f59e3f2dfccf7aa9-4",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Befreiung“ (§ 4) aus „Verordnung über die Einschränkung des Gemeingebrauches“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.563
+    },
+    {
+      "n": 181,
+      "id": "paragraph-706cf57de762b236f8b053-1",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Name, Rechtsform, Sitz“ (§ 1) aus „Satzung der Adelhausenstiftung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.564
+    },
+    {
+      "n": 182,
+      "id": "paragraph-613786e69d465ca9d44044-4",
+      "frage": "Was bedeutet § 4 „Bau und Betrieb von Leitungen und Verteilungsanlagen“ in „Fernwärmerichtlinien für die Stadt Freiburg i. Br.“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.563
+    },
+    {
+      "n": 183,
+      "id": "paragraph-96db827a06998cbd26b4b8-8",
+      "frage": "Wie würdest du mir die Regelung in § 8 der Freiburger Vorschrift „Verbandssatzung Regio-Nahverkehr Freiburg (ZRF)“ zum Thema „Zusammensetzung des beschließenden Ausschusses“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.565
+    },
+    {
+      "n": 184,
+      "id": "paragraph-4da3b43b453e5d00e4071e-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Verbandsgebiet“ (§ 2) aus „Zweckverbandssatzung Tierische Nebenprodukte Süd-Baden-Württemberg“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.557
+    },
+    {
+      "n": 185,
+      "id": "paragraph-78585c645fc789423690f2-10",
+      "frage": "Was bedeutet § 10 „Auslegung der Vereinbarung und Vertretung bei Streitigkeiten“ in „Eingliederungsvereinbarung Ebnet“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.569
+    },
+    {
+      "n": 186,
+      "id": "paragraph-6e3d294acb15a1da4d6132-2",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Aufgaben des Zweckverbands“ (§ 2) aus „Verbandssatzung Gewerbepark Breisgau“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.557
+    },
+    {
+      "n": 187,
+      "id": "paragraph-197b47c852301205cdad66-6",
+      "frage": "Wie würdest du mir die Regelung in § 6 der Freiburger Vorschrift „Satzung der Fritz-Munder-Stiftung“ zum Thema „Auflösung der Stiftung“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.562
+    },
+    {
+      "n": 188,
+      "id": "paragraph-ddb0d3045d9a1089fd133f-9",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Flächenmaßstab“ (§ 9) aus „Vergnügungsteuersatzung“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.645
+    },
+    {
+      "n": 189,
+      "id": "paragraph-f1d17ca61774945eae82dd-5",
+      "frage": "Erkläre mir bitte anhand der Originalseite den Abschnitt „Übernahme der Bediensteten“ (§ 5) aus „Eingliederungsvereinbarung Opfingen“ in Freiburg.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.68
+    },
+    {
+      "n": 190,
+      "id": "paragraph-36885996ce902404b4ebe7-6",
+      "frage": "Wie würdest du mir die Regelung in § 6 der Freiburger Vorschrift „Eingliederungsvereinbarung Lehen“ zum Thema „Ortsrecht“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.555
+    },
+    {
+      "n": 191,
+      "id": "paragraph-4da3b43b453e5d00e4071e-6",
+      "frage": "Was bedeutet § 6 „Ausschüsse“ in „Zweckverbandssatzung Tierische Nebenprodukte Süd-Baden-Württemberg“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.553
+    },
+    {
+      "n": 192,
+      "id": "paragraph-646bae5c69186d7e855a38-5",
+      "frage": "Was bedeutet § 5 „Vorstand“ in „Satzung der Stiftung Innovationsallianz Freiburg“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 503,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 679.638
+    },
+    {
+      "n": 193,
+      "id": "paragraph-96db827a06998cbd26b4b8-2",
+      "frage": "Wie würdest du mir die Regelung in § 2 der Freiburger Vorschrift „Verbandssatzung Regio-Nahverkehr Freiburg (ZRF)“ zum Thema „Aufgaben des Zweckverbands“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.569
+    },
+    {
+      "n": 194,
+      "id": "paragraph-b6a7cab5716639f6b9d51d-12",
+      "frage": "Was bedeutet § 12 „Ordnungswidrigkeiten“ in „Verordnung über das Natur- und Landschaftsschutzgebiet Schauinsland“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.565
+    },
+    {
+      "n": 195,
+      "id": "paragraph-fec93742d3286f22b36212-4",
+      "frage": "Wie würdest du mir die Regelung in § 4 der Freiburger Vorschrift „Satzung über de Errichtung eines Digitalisierungsbeirats“ zum Thema „Geschäftsgang“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.643
+    },
+    {
+      "n": 196,
+      "id": "paragraph-79e8aeab3122e9d6dc751f-14",
+      "frage": "Wie würdest du mir die Regelung in § 14 der Freiburger Vorschrift „Kleingartenordnung für städtische Zeitgärten“ zum Thema „Kündigung“ erklären? Bitte nenne die Originalseite.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.564
+    },
+    {
+      "n": 197,
+      "id": "paragraph-e357d69e1e32df4cea7160-5",
+      "frage": "Was bedeutet § 5 „Zulässige Handlungen“ in „Satzung über die Erklärung von Waldflächen im Stadtkreis Freiburg zum Erholungswald (Opfinger See)“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.567
+    },
+    {
+      "n": 198,
+      "id": "paragraph-3e0a51ed9d204409a75986-2",
+      "frage": "Was bedeutet § 2 „Rechtsnachfolge“ in „Eingliederungsvereinbarung Munzingen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.564
+    },
+    {
+      "n": 199,
+      "id": "paragraph-bcfc4d8d8fc448ebd81601-4",
+      "frage": "Wie würdest du mir die Regelung in § 4 der Freiburger Vorschrift „Satzung über die Erhebung von Erschließungsbeiträgen entlang der Güterbahnlinie zum Schutz des Bebauungsplangebietes \"Innere Elben\"“ zum Thema „Ermittlung des beitragsfähigen Aufwands, Gemeindeanteil“ erklären? Bitte nenne die Originalseite.",
+      "http": 200,
+      "korrekt": false,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für die Haushaltsauskunft brauche ich das Jahr. Für welches Haushaltsjahr möchtest du den Betrag wissen?",
+      "sekunden": 0.042
+    },
+    {
+      "n": 200,
+      "id": "paragraph-97e6397ef973ffbdb4be4d-7",
+      "frage": "Was bedeutet § 7 „Beschlussfähigkeit“ in „Geschäftsordnung des Ortschaftsrats Waltershofen“ für betroffene Personen? Erkläre es anhand der Freiburger Vorschrift.",
+      "http": 429,
+      "fehler": "HTTPError",
+      "korrekt": false,
+      "sekunden": 1.565
+    }
+  ]
+}

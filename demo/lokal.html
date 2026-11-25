@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DIGITOM · Bedarfsassistent</title>
+  <link rel="stylesheet" href="/demo.css">
+  <script src="/demo.js" defer></script>
+</head>
+<body>
+  <header><div><strong>DIGITOM</strong><span>Bedarfsassistent</span></div><button id="neu" type="button" hidden>Neuer Bedarf</button></header>
+  <main>
+    <p class="quelle" id="quelle"></p>
+    <section id="start"><h1>Welchen Bedarf hat das Fachamt?</h1>
+      <p>Beschreibe das Anliegen. Der Assistent sucht passende Services und hält offene Fragen für den Steckbrief fest.</p>
+      <div class="beispiele"><button type="button" data-fall="schaden">Schäden an Spielgeräten melden</button>
+        <button type="button" data-fall="termin">Termine für eine Sprechstunde buchen</button></div>
+    </section>
+    <div id="verlauf" role="log" aria-live="polite"></div>
+    <form id="formular"><label for="frage">Deine Nachricht</label>
+      <textarea id="frage" rows="3" maxlength="3600" required></textarea>
+      <div><span id="status" role="status"></span><button id="senden" type="submit">Senden</button></div>
+    </form>
+  </main>
+</body></html>

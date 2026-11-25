@@ -1,0 +1,676 @@
+[
+  {
+    "id": "haushalt-01",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 112101, Amt 110 HPA/OB B?ro/RIKP/NHM/PIWI/RbW, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "231407.2",
+      "zeile": 41,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-02",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 112402, Amt 153 Ortsverw. Waltershofen, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-61430.9",
+      "zeile": 59,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-03",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 318008, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "588.5",
+      "zeile": 202,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-04",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 552001, Amt 660 Garten-, Tiefbauamt, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-2127631.1",
+      "zeile": 331,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-05",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 548001, Amt 660 Garten-, Tiefbauamt, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "83476",
+      "zeile": 320,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-06",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 311001, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-29841692.1",
+      "zeile": 162,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-07",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 522006, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "0.4",
+      "zeile": 273,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-08",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 122002, Amt 540 Amt f. Migration und Integration, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-190621.3",
+      "zeile": 93,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-09",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 112402, Amt 151 Ortsverw. Lehen, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "6910",
+      "zeile": 57,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-10",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 511111, Amt 620 Amt f. Wohnraumentw.u. Vermessung, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-213081.9",
+      "zeile": 261,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-11",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 111102, Amt 110 HPA/OB B?ro/RIKP/NHM/PIWI/RbW, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "0.1",
+      "zeile": 18,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-12",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 113304, Amt 650 Immobilienmanagement Freiburg, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-2104260.1",
+      "zeile": 85,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-13",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 314005, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "3936171.8",
+      "zeile": 181,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-14",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 111001, Amt 158 Ortsverw. Kappel, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-107749.8",
+      "zeile": 16,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-15",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 111402, Amt 011 Referat f?r Chancengerechtigkeit, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "287980",
+      "zeile": 29,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-16",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 112402, Amt 158 Ortsverw. Kappel, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-31953",
+      "zeile": 64,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-17",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 316001, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "299930.4",
+      "zeile": 188,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-18",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 122200, Amt 340 Standesamt, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "0",
+      "zeile": 102,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-19",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 111001, Amt 151 Ortsverw. Lehen, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "0",
+      "zeile": 9,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-20",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 311007, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-6118250.1",
+      "zeile": 169,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-21",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 112402, Amt 650 Immobilienmanagement Freiburg, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "8374896",
+      "zeile": 65,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-22",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 113200, Amt 200 Stadtk?mmerei, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-1858499",
+      "zeile": 83,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-23",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 551000, Amt 151 Ortsverw. Lehen, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "50",
+      "zeile": 322,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-24",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 313001, Amt 530 Amt f. Kinder, Jugend, Familie, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-155114.6",
+      "zeile": 177,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-25",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 511005, Amt 601 Projektgruppe Dietenbach, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "0",
+      "zeile": 248,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-26",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 545001, Amt 157 Ortsverw. Ebnet, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-5338.1",
+      "zeile": 303,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-27",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 111001, Amt 110 HPA/OB B?ro/RIKP/NHM/PIWI/RbW, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "2224044.7",
+      "zeile": 8,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-28",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 553000, Amt 157 Ortsverw. Ebnet, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-42572",
+      "zeile": 339,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-29",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 511001, Amt 610 Stadtplanungsamt, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "439936",
+      "zeile": 243,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-30",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 112501, Amt 660 Garten-, Tiefbauamt, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-280118.6",
+      "zeile": 67,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-31",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 522002, Amt % 640 Amt f. Liegenschaften, Wgwesen, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "0",
+      "zeile": 268,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-32",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 211004, Amt 400 Amt f. Schule, Bildung, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-5064963.5",
+      "zeile": 132,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-33",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 211009, Amt 400 Amt f. Schule, Bildung, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "1932895.9",
+      "zeile": 134,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-34",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 111302, Amt 140 Rechnungspr?fungsamt, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-61839.9",
+      "zeile": 26,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-35",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 112104, Amt 110 HPA/OB B?ro/RIKP/NHM/PIWI/RbW, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "22337.9",
+      "zeile": 44,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-36",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 522005, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-224758.7",
+      "zeile": 271,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-37",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 321002, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "0",
+      "zeile": 213,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-38",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 545002, Amt 152 Ortsverw. Opfingen, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-2170",
+      "zeile": 307,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-39",
+    "question": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 121003, Amt 120 Amt f. B?rgerservice, Infoman., im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "370030",
+      "zeile": 87,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-40",
+    "question": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 112305, Amt 200 Stadtk?mmerei, im Freiburger Ergebnishaushalt?",
+    "want": {
+      "betrag": "-520604.6",
+      "zeile": 54,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-41",
+    "question": "Wie viel will Freiburg 2026 für sein Theater ausgeben?",
+    "want": {
+      "betrag": "-22590272",
+      "zeile": 151,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-42",
+    "question": "Mit welchen Einnahmen rechnet die VHS 2026?",
+    "want": {
+      "betrag": "330150",
+      "zeile": 154,
+      "spalte": "Ansatz 2026 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-43",
+    "question": "Was ist 2026 für die Straßenreinigung in Lehen an Ausgaben vorgesehen?",
+    "want": {
+      "betrag": "-15215.8",
+      "zeile": 297,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-44",
+    "question": "Mit welchen Einnahmen plant die Stadt 2025 bei der Kindertagespflege?",
+    "want": {
+      "betrag": "2457081",
+      "zeile": 230,
+      "spalte": "Ansatz 2025 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-45",
+    "question": "Was hat der Gemeinderat 2021 bei Produkt 111001 tatsächlich eingenommen?",
+    "want": {
+      "betrag": "150176.1",
+      "zeile": 2,
+      "spalte": "Ergebnis 2021 (Erträge)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20232024/content.csv",
+      "pruefsumme_csv": "bfbaa644d0665d3370d150d118efbb26a87556ce695805256d5f91d290ccc599"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-46",
+    "question": "Welchen Saldo plant Freiburg für die VHS 2026?",
+    "want": {
+      "betrag": "-1842772.1",
+      "zeile": 154,
+      "spalte": "Ansatz 2026 (Saldo/Zuschussbedarf/Erträge - Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null
+  },
+  {
+    "id": "haushalt-47",
+    "question": "Wie viel will die Stadt 2026 für die Stadtbibliothek ausgeben?",
+    "want": null,
+    "mentions": [
+      "das Produkt",
+      "Programmarbeit"
+    ],
+    "link": null
+  },
+  {
+    "id": "haushalt-48",
+    "question": "Die Programmarbeit.",
+    "want": {
+      "betrag": "-2086305.7",
+      "zeile": 156,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null,
+    "previous": "Wie viel will die Stadt 2026 für die Stadtbibliothek ausgeben?"
+  },
+  {
+    "id": "haushalt-49",
+    "question": "Wie viel will Freiburg für die Musikschule ausgeben?",
+    "want": null,
+    "mentions": [
+      "welches Haushaltsjahr"
+    ],
+    "link": null
+  },
+  {
+    "id": "haushalt-50",
+    "question": "2026.",
+    "want": {
+      "betrag": "-2662524.7",
+      "zeile": 153,
+      "spalte": "Ansatz 2026 (Aufwendungen)",
+      "quelle": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv",
+      "pruefsumme_csv": "11855bd2919eabb4596443d08ffc8784c05d755f3ff925adfc44048ff7f41b89"
+    },
+    "mentions": [],
+    "link": null,
+    "previous": "Wie viel will Freiburg für die Musikschule ausgeben?"
+  },
+  {
+    "id": "haushalt-51",
+    "question": "Was hat Freiburg 2026 für das Theater tatsächlich ausgegeben?",
+    "want": null,
+    "mentions": [
+      "kein Ist-Betrag",
+      "2026"
+    ],
+    "link": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv"
+  },
+  {
+    "id": "haushalt-52",
+    "question": "Wie viel will Freiburg 2035 für das Theater ausgeben?",
+    "want": null,
+    "mentions": [
+      "kein Planwert",
+      "2035"
+    ],
+    "link": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv"
+  },
+  {
+    "id": "haushalt-53",
+    "question": "Welche Erträge stehen 2026 im Ergebnishaushalt für Produkt 999998, Amt 000?",
+    "want": null,
+    "mentions": [
+      "keine eindeutige Zeile"
+    ],
+    "link": "https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv"
+  }
+]

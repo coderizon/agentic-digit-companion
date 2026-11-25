@@ -1,0 +1,63 @@
+[
+  {
+    "fall": "Vorhandenen Service, Verantwortung und Vergleichsfall finden",
+    "bestanden": true,
+    "http": 200,
+    "sekunden": 0.195,
+    "antwort": "*Übungsfall mit fiktiven Quellen.*\n\n**Passender Service:** Mobile Mängelmeldung. Beschäftigte können Schäden im öffentlichen Raum mit Foto und Standort erfassen. Eine konfigurierbare Warteschlange nimmt die Meldungen entgegen. Zuständig ist Serviceteam Außendienst und Meldungen. [01-maengelmeldungen.txt](/api/v1/files/65bb4321-d241-4d9a-bc90-5690a09c6939/content)\n\n**Vergleichsfall:** Beschädigte Parkbänke melden. Bei den Parkbänken wurden Foto und Standort über die mobile Mängelmeldung erfasst. Vor dem Start musste die empfangende Stelle festgelegt werden. Der Vorgang beschreibt einen früheren Übungsfall. Er beinhaltet keine Freigabe für weitere Einsatzorte. [03-vergleichsbedarf.txt](/api/v1/files/42d3e454-8717-4ab8-8f2f-857897d5d9e6/content)\n\n**Noch zu klären:** Welche Stelle soll die Meldungen oder Anfragen bearbeiten? Woran würdet ihr erkennen, dass sich der Ablauf verbessert hat?"
+  },
+  {
+    "fall": "Steckbrief nach freier zweiter Nachricht",
+    "bestanden": true,
+    "http": 200,
+    "sekunden": 0.31,
+    "antwort": "*Übungsfall mit fiktiven Quellen.*\n\n**Bedarfssteckbrief · Entwurf zur fachlichen Prüfung**\n\n- **Anliegen:** Unser Außendienst möchte kaputte Spielgeräte per Handy mit Foto und Standort melden\n- **Zielgruppe:** Unser Außendienst\n- **Empfänger:** Bauhof\n- **Erfolgskriterium:** Schäden innerhalb von zwei Arbeitstagen zu sichten\n\n**Passender Service:** Mobile Mängelmeldung. Zuständig ist Serviceteam Außendienst und Meldungen. [01-maengelmeldungen.txt](/api/v1/files/65bb4321-d241-4d9a-bc90-5690a09c6939/content)\n\n**Vergleichsfall:** Beschädigte Parkbänke melden. [03-vergleichsbedarf.txt](/api/v1/files/42d3e454-8717-4ab8-8f2f-857897d5d9e6/content)\n\nVorlage: [04-steckbrief.txt](/api/v1/files/2f065aaf-fb12-4e72-8075-5693df6a5a20/content)\n\nDas Fachamt kann den Entwurf prüfen und anschließend in seine Vorlage übernehmen."
+  },
+  {
+    "fall": "Frühen Entwurf mit erkennbaren Lücken erstellen",
+    "bestanden": true,
+    "http": 200,
+    "sekunden": 0.112,
+    "antwort": "*Übungsfall mit fiktiven Quellen.*\n\n**Bedarfssteckbrief · Entwurf zur fachlichen Prüfung**\n\n- **Anliegen:** Wir möchten Schäden an Spielgeräten fotografieren\n- **Zielgruppe:** offen\n- **Empfänger:** offen\n- **Erfolgskriterium:** offen\n\n**Passender Service:** Mobile Mängelmeldung. Zuständig ist Serviceteam Außendienst und Meldungen. [01-maengelmeldungen.txt](/api/v1/files/65bb4321-d241-4d9a-bc90-5690a09c6939/content)\n\n**Vergleichsfall:** Beschädigte Parkbänke melden. [03-vergleichsbedarf.txt](/api/v1/files/42d3e454-8717-4ab8-8f2f-857897d5d9e6/content)\n\nVorlage: [04-steckbrief.txt](/api/v1/files/2f065aaf-fb12-4e72-8075-5693df6a5a20/content)\n\n**Noch zu klären:** Wer soll den Dienst nutzen? Welche Stelle soll die Meldungen oder Anfragen bearbeiten? Woran würdet ihr erkennen, dass sich der Ablauf verbessert hat?"
+  },
+  {
+    "fall": "Unabhängiger zweiter Anwendungsfall",
+    "bestanden": true,
+    "http": 200,
+    "sekunden": 0.165,
+    "antwort": "*Übungsfall mit fiktiven Quellen.*\n\n**Passender Service:** Online-Terminvergabe. Bürgerinnen und Bürger können freie Zeiten für eine Sprechstunde auswählen, einen Termin buchen und eine Bestätigung erhalten. Zuständig ist Serviceteam Digitale Termine. [02-terminvergabe.txt](/api/v1/files/c3b8fe0f-c98a-4f7b-ae9b-518f5bbb674a/content)\n\n**Noch zu klären:** Wer soll den Dienst nutzen? Welche Stelle soll die Meldungen oder Anfragen bearbeiten? Woran würdet ihr erkennen, dass sich der Ablauf verbessert hat?"
+  },
+  {
+    "fall": "Unbekanntes Thema offenlassen",
+    "bestanden": true,
+    "http": 200,
+    "sekunden": 0.096,
+    "antwort": "*Übungsfall mit fiktiven Quellen.*\n\n**Serviceprüfung:** In den gefundenen Katalogeinträgen ist für dieses Anliegen kein passender Service belegt. Die Zuständigkeit bleibt offen.\n\n**Noch zu klären:** Wer soll den Dienst nutzen? Welche Stelle soll die Meldungen oder Anfragen bearbeiten? Woran würdet ihr erkennen, dass sich der Ablauf verbessert hat?"
+  },
+  {
+    "fall": "Bei mehreren passenden Services nachfragen",
+    "bestanden": true,
+    "http": 200,
+    "sekunden": 0.15,
+    "antwort": "*Übungsfall mit fiktiven Quellen.*\n\n**Mehrere passende Katalogeinträge.** Welche dieser Leistungen kommt eurem Anliegen am nächsten?\n\n- Mobile Mängelmeldung [01-maengelmeldungen.txt](/api/v1/files/65bb4321-d241-4d9a-bc90-5690a09c6939/content)\n- Online-Terminvergabe [02-terminvergabe.txt](/api/v1/files/c3b8fe0f-c98a-4f7b-ae9b-518f5bbb674a/content)"
+  },
+  {
+    "fall": "Gewählten Service im Folgegespräch berücksichtigen",
+    "bestanden": true,
+    "http": 200,
+    "sekunden": 0.094,
+    "antwort": "*Übungsfall mit fiktiven Quellen.*\n\n**Passender Service:** Online-Terminvergabe. Bürgerinnen und Bürger können freie Zeiten für eine Sprechstunde auswählen, einen Termin buchen und eine Bestätigung erhalten. Zuständig ist Serviceteam Digitale Termine. [02-terminvergabe.txt](/api/v1/files/c3b8fe0f-c98a-4f7b-ae9b-518f5bbb674a/content)\n\n**Noch zu klären:** Wer soll den Dienst nutzen? Welche Stelle soll die Meldungen oder Anfragen bearbeiten? Woran würdet ihr erkennen, dass sich der Ablauf verbessert hat?"
+  },
+  {
+    "fall": "Angeklicktes Original · Mobile Mängelmeldung",
+    "bestanden": true
+  },
+  {
+    "fall": "Angeklicktes Original · Beschädigte Parkbänke melden",
+    "bestanden": true
+  },
+  {
+    "fall": "Angeklicktes Original · Pflichtangaben",
+    "bestanden": true
+  }
+]

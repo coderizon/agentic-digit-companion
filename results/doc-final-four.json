@@ -1,0 +1,67 @@
+{
+  "zeit_utc": "2026-11-25T17:30:38.109196+00:00",
+  "korpus": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+  "suite": "documents",
+  "parallel": 2,
+  "antwortcache": false,
+  "ergebnis": {
+    "gesamt": 4,
+    "korrekt": 4,
+    "http": {
+      "200": 4
+    },
+    "gesamt_s": 45.996,
+    "p50_erfolg_s": 6.28,
+    "p95_erfolg_s": 39.716
+  },
+  "anfragen": [
+    {
+      "n": 1,
+      "id": "hund-steuer",
+      "frage": "Wie viel Hundesteuer zahle ich in Freiburg pro Jahr für meinen ersten Hund und wie viel für den zweiten?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(1) Die Steuer beträgt im Kalenderjahr für a) den ersten Hund 120,00 Euro b) den zweiten und jeden weiteren Hund 240,00 Euro.“ [23.01.03 Hundesteuersatzung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E896032368/freiburg/daten/ortsrecht/23%20Kommunalabgaben/OrtsR_23_01_03.pdf#page=2)",
+      "sekunden": 39.294
+    },
+    {
+      "n": 2,
+      "id": "hund-anmeldung",
+      "frage": "Wir haben einen Hund aufgenommen. Bis wann und bei welcher Stelle muss ich die Haltung schriftlich anzeigen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(1) Wer im Stadtgebiet einen Hund hält, hat dies innerhalb eines Monats nach dem Beginn der Haltung oder nachdem der Hund das steuerbare Alter im Sinne von § 3 Abs. 1 erreicht hat, der Stadt Freiburg i. Br. (Stadtkämmerei) schriftlich anzuzeigen. Die Anzeigepflicht besteht unabhängig von der Steuerpflicht.“ [23.01.03 Hundesteuersatzung · PDF-Seite 5](https://www.freiburg.de/pb/site/Freiburg/get/documents_E896032368/freiburg/daten/ortsrecht/23%20Kommunalabgaben/OrtsR_23_01_03.pdf#page=5)",
+      "sekunden": 39.716
+    },
+    {
+      "n": 3,
+      "id": "parken-ersatz",
+      "frage": "Ich habe meinen Bewohnerparkausweis verloren. Was kostet mich ein neuer als Ersatz?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "belegstelle",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "„(3) Für Änderungen auf dem Bewohnerparkausweis sowie die Ersatzausstellung aufgrund von Verlust wird eine Gebühr in Höhe von 10 Euro erhoben. Unter Änderungen fallen insbesondere der Umzug in ein anderes Parkgebiet oder ein Fahrzeugwechsel. Die Gültigkeitsdauer des Bewohnerparkausweises wird durch eine Änderung im Sinne der Sätze 1 und 2 nicht berührt.“ [07.05 Bewohnerparkgebührenverordnung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-84659489/freiburg/daten/ortsrecht/07%20Verkehr/OrtsR_07_05.pdf#page=2)",
+      "sekunden": 6.09
+    },
+    {
+      "n": 4,
+      "id": "buecherei-frist",
+      "frage": "Wie lange kann ich normalerweise Bücher aus der Stadtbibliothek ausleihen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "belegstelle",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "„(1) Die Leihfrist für alle ausgeliehenen Medien beträgt grundsätzlich vier Wochen. Die Bibliotheksleitung kann davon abweichende Leihfristen für einzelne Mediengruppen festlegen.“ [17.11 Stadtbibliothekssatzung · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-342330762/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_11.pdf#page=3)",
+      "sekunden": 6.28
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "fall": "Freigegebene Sammlung",
+    "http": 200,
+    "korrekt": true,
+    "sekunden": 42.164,
+    "antwort": "Das Prüfprotokoll nennt für den Leseraum die Abholkennung KIESEL-731. [leseraum-nord.txt · Leseraum Nord](/api/v1/files/c185832e-17c1-4a0d-885b-b67c40123316/content)"
+  },
+  {
+    "fall": "Originaldatei mit Freigabe",
+    "http": 200,
+    "korrekt": true
+  },
+  {
+    "fall": "Andere Auswahl",
+    "http": 200,
+    "korrekt": true,
+    "sekunden": 38.417,
+    "antwort": "Das Prüfprotokoll nennt für den Leseraum die Abholkennung FICHTE-482. [leseraum-süd.txt · Leseraum Süd](/api/v1/files/de9c7e01-54a6-47f0-87fb-89e107fbad86/content)"
+  },
+  {
+    "fall": "Mehrere Sammlungen",
+    "http": 200,
+    "korrekt": true,
+    "sekunden": 54.491,
+    "antwort": "Die Abholkennung für den Leseraum Nord lautet KIESEL-731. [leseraum-nord.txt · Leseraum Nord](/api/v1/files/c185832e-17c1-4a0d-885b-b67c40123316/content)\n\nDie Abholkennung für den Leseraum Süd lautet FICHTE-482. [leseraum-süd.txt · Leseraum Süd](/api/v1/files/de9c7e01-54a6-47f0-87fb-89e107fbad86/content)"
+  },
+  {
+    "fall": "Fehlende Lesefreigabe",
+    "http": 400,
+    "korrekt": true,
+    "sekunden": 0.026,
+    "antwort": "Für mindestens eine ausgewählte Wissenssammlung fehlt die Lesefreigabe."
+  },
+  {
+    "fall": "Entzogene Lesefreigabe",
+    "http": 400,
+    "korrekt": true,
+    "sekunden": 0.024,
+    "antwort": "Für mindestens eine ausgewählte Wissenssammlung fehlt die Lesefreigabe."
+  },
+  {
+    "fall": "Originaldatei nach Entzug",
+    "http": 404,
+    "korrekt": true
+  },
+  {
+    "fall": "Ohne Auswahl",
+    "http": 200,
+    "korrekt": true,
+    "sekunden": 0.024,
+    "antwort": "Dafür finde ich in den eingelesenen öffentlichen Freiburger Quellen keinen ausreichenden Beleg."
+  },
+  {
+    "fall": "Öffentliche Haushaltstabelle",
+    "http": 200,
+    "korrekt": true,
+    "sekunden": 0.024,
+    "antwort": "Für Volkshochschule (Produkt 271000, 400 Amt f. Schule, Bildung) beträgt der Planwert für Erträge im Jahr 2026 **330.150,00 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 154 · Spalte „Ansatz 2026 (Erträge)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)"
+  },
+  {
+    "fall": "Datei aus Sammlung entfernt",
+    "http": 200,
+    "korrekt": true,
+    "sekunden": 0.075,
+    "antwort": "In den ausgewählten Wissenssammlungen finde ich dafür keinen ausreichenden Beleg."
+  }
+]

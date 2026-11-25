@@ -1,0 +1,12 @@
+[
+  {"id":"ruhezeit","question":"Wie lange ist die reguläre Ruhezeit auf dem Freiburger Friedhof für einen Sarg bei einem Erwachsenen?","doc":"426cdf8df8a786e8c7c9dd","page":9,"patterns":["(?:15|fünfzehn) Jahre"]},
+  {"id":"reihengrab","question":"Bis wann muss ich eine Reihengrabstätte nach Ende des Nutzungsrechts abräumen?","doc":"426cdf8df8a786e8c7c9dd","page":12,"patterns":["(?:drei|3) Monaten?","abräum|abzuräum"]},
+  {"id":"friedhof-kind","question":"Darf mein sechsjähriger Sohn alleine auf einen städtischen Friedhof in Freiburg gehen?","doc":"426cdf8df8a786e8c7c9dd","page":4,"patterns":["[Bb]egleitung","[Ee]rwachsen"]},
+  {"id":"parken-halbjahr","question":"Was kostet der Bewohnerparkausweis für sechs Monate?","doc":"3ba69e55321acb7922b069","page":2,"patterns":["\\b100(?:[.,]00)?\\s*(?:Euro|€)"]},
+  {"id":"parken-jahr","question":"Was kostet mich die Ausstellung eines Bewohnerparkausweises für ein ganzes Jahr?","doc":"3ba69e55321acb7922b069","page":2,"patterns":["\\b200(?:[.,]00)?\\s*(?:Euro|€)"]},
+  {"id":"ausweis-verlust","question":"Ich habe meinen Bibliotheksausweis verloren. Wann soll ich das der Stadtbibliothek mitteilen?","doc":"0fea4e77940835b4631feb","page":3,"patterns":["unverzüglich|sofort|umgehend"]},
+  {"id":"buch-vorgemerkt","question":"Kann ich ein Buch der Freiburger Stadtbibliothek verlängern, wenn jemand es schon vorgemerkt hat?","doc":"0fea4e77940835b4631feb","page":3,"patterns":["Vormerkung|vorgemerkt","keine|nicht|ohne"]},
+  {"id":"baumschule","question":"Schützt die Freiburger Baumschutzsatzung die Bäume in einer Baumschule?","doc":"350eefbe49f6180d315534","page":2,"patterns":["Baumschul","nicht|ausgenommen"]},
+  {"id":"hubschrauber","question":"Was kostet ein eigener Bewohnerparkausweis für meinen Hubschrauber in Freiburg?","patterns":["kein.{0,70}(?:Beleg|Gebühr|Regel|Hinweis|Information)|(?:nicht|unbelegt).{0,45}(?:geregelt|belegt|vorgesehen|enthalten)"],"forbidden":["(?:kostet|Gebühr beträgt)\\s+\\d+\\s*(?:€|Euro)"]},
+  {"id":"schreibtisch","question":"Wie lange kann ich einen Schreibtisch im privaten Büro der Bürgermeisterin reservieren?","patterns":["kein.{0,65}(?:Beleg|Information|Hinweis|Regelung)|nicht.{0,35}(?:geregelt|belegt|vorgesehen)"]}
+]

@@ -1,0 +1,55 @@
+{
+  "model": "qwen3.8-flash-next-unsloth-ud-q4_k_xl",
+  "ergebnis": {
+    "parallel": 4,
+    "http": {
+      "200": 4
+    },
+    "korrekt": 4,
+    "ttft_p95_s": 33.416,
+    "gesamt_p95_s": 39.838,
+    "lauf_s": 39.839
+  },
+  "anfragen": [
+    {
+      "id": "hund-steuer",
+      "n": 1,
+      "ttft_s": 0.938,
+      "http": 200,
+      "ende": "stop",
+      "gesamt_s": 39.517,
+      "antwort": "Für den ersten Hund zahlen Sie 120,00 Euro und für den zweiten Hund 240,00 Euro pro Jahr.",
+      "korrekt": true
+    },
+    {
+      "id": "hund-anmeldung",
+      "n": 2,
+      "ttft_s": 22.334,
+      "http": 200,
+      "ende": "stop",
+      "gesamt_s": 39.838,
+      "antwort": "Die Haltung ist innerhalb eines Monats nach Beginn der Haltung der Stadt Freiburg i. Br. (Stadtkämmerei) schriftlich anzuzeigen.",
+      "korrekt": true
+    },
+    {
+      "id": "hund-abmeldung",
+      "n": 3,
+      "ttft_s": 33.416,
+      "http": 200,
+      "ende": "stop",
+      "gesamt_s": 39.172,
+      "antwort": "Ja, mit der Abmeldung des Hundes ist die noch vorhandene Hundesteuermarke an die Stadt zurückzugeben.",
+      "korrekt": true
+    },
+    {
+      "id": "parken-ersatz",
+      "n": 4,
+      "ttft_s": 11.236,
+      "http": 200,
+      "ende": "stop",
+      "gesamt_s": 36.741,
+      "antwort": "Die Ersatzausstellung aufgrund von Verlust kostet 10 Euro.",
+      "korrekt": true
+    }
+  ]
+}

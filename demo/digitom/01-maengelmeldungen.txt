@@ -1,0 +1,10 @@
+Übungsunterlage · Fiktiver Servicekatalog
+
+Typ: IT-Service
+Kennung: DEMO-S01
+Titel: Mobile Mängelmeldung
+Leistung: Beschäftigte können Schäden im öffentlichen Raum mit Foto und Standort erfassen. Eine konfigurierbare Warteschlange nimmt die Meldungen entgegen.
+Zuständig: Serviceteam Außendienst und Meldungen
+Suchbegriffe: Schaden melden, Schäden, kaputt, beschädigt, defekt, Spielgerät, Spielplatz, Parkbank, Straßenlaterne, Mängelmeldung, Mangel, Foto, Standort, GPS
+
+Die Freischaltung und die tatsächlich empfangende Stelle werden für jeden neuen Anwendungsfall fachlich geklärt.

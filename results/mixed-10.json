@@ -1,0 +1,139 @@
+{
+  "zeit_utc": "2026-11-25T17:46:10.509495+00:00",
+  "korpus": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+  "suite": "mixed",
+  "parallel": 10,
+  "antwortcache": true,
+  "ergebnis": {
+    "gesamt": 10,
+    "korrekt": 10,
+    "http": {
+      "200": 10
+    },
+    "gesamt_s": 32.186,
+    "p50_erfolg_s": 0.053,
+    "p95_erfolg_s": 32.184
+  },
+  "anfragen": [
+    {
+      "n": 1,
+      "id": "haushalt-01",
+      "frage": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 112101, Amt 110 HPA/OB B?ro/RIKP/NHM/PIWI/RbW, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Personalbedarfsdeckung (Produkt 112101, 110 HPA/OB Büro/RIKP/NHM/PIWI/RbW) beträgt der Planwert für Erträge im Jahr 2026 **231.407,20 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 41 · Spalte „Ansatz 2026 (Erträge)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.053
+    },
+    {
+      "n": 2,
+      "id": "haushalt-02",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 112402, Amt 153 Ortsverw. Waltershofen, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Verw. u. Bewirtsch.bebauter Grundst?ck (Produkt 112402, 153 Ortsverw. Waltershofen) beträgt der Planwert für Aufwendungen im Jahr 2026 **−61.430,90 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 59 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.061
+    },
+    {
+      "n": 3,
+      "id": "haushalt-03",
+      "frage": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 318008, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Ber./Angeb.f.?ltere Mensch.au?erh.SGBXII (Produkt 318008, 500 Amt für Soziales) beträgt der Planwert für Erträge im Jahr 2026 **588,50 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 202 · Spalte „Ansatz 2026 (Erträge)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.06
+    },
+    {
+      "n": 4,
+      "id": "haushalt-04",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 552001, Amt 660 Garten-, Tiefbauamt, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Kommunale Gew?sser (inkl.Hochwassersch.) (Produkt 552001, 660 Garten-, Tiefbauamt) beträgt der Planwert für Aufwendungen im Jahr 2026 **−2.127.631,10 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 331 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.06
+    },
+    {
+      "n": 5,
+      "id": "hund-steuer",
+      "frage": "Wie viel Hundesteuer zahle ich in Freiburg pro Jahr für meinen ersten Hund und wie viel für den zweiten?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "neu",
+      "modellaufrufe": 1,
+      "antwort": "„(1) Die Steuer beträgt im Kalenderjahr für a) den ersten Hund 120,00 Euro b) den zweiten und jeden weiteren Hund 240,00 Euro.“ [23.01.03 Hundesteuersatzung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E896032368/freiburg/daten/ortsrecht/23%20Kommunalabgaben/OrtsR_23_01_03.pdf#page=2)",
+      "sekunden": 32.184
+    },
+    {
+      "n": 6,
+      "id": "haushalt-05",
+      "frage": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 548001, Amt 660 Garten-, Tiefbauamt, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Industriegleis (Produkt 548001, 660 Garten-, Tiefbauamt) beträgt der Planwert für Erträge im Jahr 2026 **83.476,00 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 320 · Spalte „Ansatz 2026 (Erträge)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.045
+    },
+    {
+      "n": 7,
+      "id": "haushalt-06",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 311001, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Hilfe zur Pflege (Produkt 311001, 500 Amt für Soziales) beträgt der Planwert für Aufwendungen im Jahr 2026 **−29.841.692,10 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 162 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.021
+    },
+    {
+      "n": 8,
+      "id": "haushalt-07",
+      "frage": "Wie hoch ist der Ansatz 2026 für Erträge im Produkt 522006, Amt 500 Amt f?r Soziales, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Vermittlung von Wohnraum (Produkt 522006, 500 Amt für Soziales) beträgt der Planwert für Erträge im Jahr 2026 **0,40 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 273 · Spalte „Ansatz 2026 (Erträge)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.021
+    },
+    {
+      "n": 9,
+      "id": "haushalt-08",
+      "frage": "Wie hoch ist der Ansatz 2026 für Aufwendungen im Produkt 122002, Amt 540 Amt f. Migration und Integration, im Freiburger Ergebnishaushalt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "haushalt",
+      "cache": "direkt",
+      "modellaufrufe": 0,
+      "antwort": "Für Gefahrenabwehr / Wegbegleiter (Produkt 122002, 540 Amt f. Migration und Integration) beträgt der Planwert für Aufwendungen im Jahr 2026 **−190.621,30 €**.\n\n[Ergebnishaushalt (Ordentliche Erträge/Aufwendungen ohne aktivierte Eigenleistungen) Doppelhaushalt 2025/2026 · CSV-Zeile 93 · Spalte „Ansatz 2026 (Aufwendungen)“](https://fritz.freiburg.de/duva2dcat/dataset/de-bw-freiburg-ergebnishaushalt_ordentliche_ertraegeaufwendungen_ohne_aktivierte_eigenleistungen_doppelhaushalt_20252026/content.csv)",
+      "sekunden": 0.032
+    },
+    {
+      "n": 10,
+      "id": "hund-anmeldung",
+      "frage": "Wir haben einen Hund aufgenommen. Bis wann und bei welcher Stelle muss ich die Haltung schriftlich anzeigen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "neu",
+      "modellaufrufe": 1,
+      "antwort": "„(1) Wer im Stadtgebiet einen Hund hält, hat dies innerhalb eines Monats nach dem Beginn der Haltung oder nachdem der Hund das steuerbare Alter im Sinne von § 3 Abs. 1 erreicht hat, der Stadt Freiburg i. Br. (Stadtkämmerei) schriftlich anzuzeigen. Die Anzeigepflicht besteht unabhängig von der Steuerpflicht.“ [23.01.03 Hundesteuersatzung · PDF-Seite 5](https://www.freiburg.de/pb/site/Freiburg/get/documents_E896032368/freiburg/daten/ortsrecht/23%20Kommunalabgaben/OrtsR_23_01_03.pdf#page=5)",
+      "sekunden": 31.842
+    }
+  ]
+}

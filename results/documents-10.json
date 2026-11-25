@@ -1,0 +1,139 @@
+{
+  "zeit_utc": "2026-11-25T17:48:25.977057+00:00",
+  "korpus": "a6624bd43d93376420d37d2c8d09783762bfa8d3e6e39b5f38c29398c3be1f68",
+  "suite": "text",
+  "parallel": 10,
+  "antwortcache": false,
+  "ergebnis": {
+    "gesamt": 10,
+    "korrekt": 10,
+    "http": {
+      "200": 10
+    },
+    "gesamt_s": 96.42,
+    "p50_erfolg_s": 52.815,
+    "p95_erfolg_s": 96.418
+  },
+  "anfragen": [
+    {
+      "n": 1,
+      "id": "hund-steuer",
+      "frage": "Wie viel Hundesteuer zahle ich in Freiburg pro Jahr für meinen ersten Hund und wie viel für den zweiten?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(1) Die Steuer beträgt im Kalenderjahr für a) den ersten Hund 120,00 Euro b) den zweiten und jeden weiteren Hund 240,00 Euro.“ [23.01.03 Hundesteuersatzung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E896032368/freiburg/daten/ortsrecht/23%20Kommunalabgaben/OrtsR_23_01_03.pdf#page=2)",
+      "sekunden": 96.263
+    },
+    {
+      "n": 2,
+      "id": "hund-anmeldung",
+      "frage": "Wir haben einen Hund aufgenommen. Bis wann und bei welcher Stelle muss ich die Haltung schriftlich anzeigen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(1) Wer im Stadtgebiet einen Hund hält, hat dies innerhalb eines Monats nach dem Beginn der Haltung oder nachdem der Hund das steuerbare Alter im Sinne von § 3 Abs. 1 erreicht hat, der Stadt Freiburg i. Br. (Stadtkämmerei) schriftlich anzuzeigen. Die Anzeigepflicht besteht unabhängig von der Steuerpflicht.“ [23.01.03 Hundesteuersatzung · PDF-Seite 5](https://www.freiburg.de/pb/site/Freiburg/get/documents_E896032368/freiburg/daten/ortsrecht/23%20Kommunalabgaben/OrtsR_23_01_03.pdf#page=5)",
+      "sekunden": 95.937
+    },
+    {
+      "n": 3,
+      "id": "hund-abmeldung",
+      "frage": "Wir halten den Hund nicht mehr. Muss ich seine Freiburger Steuermarke bei der Abmeldung zurückgeben?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(2) Endet die Hundehaltung oder entfallen die Voraussetzungen in den Fällen der §§ 6, 7 und 8, so ist dies der Stadt Freiburg i. Br. (Stadtkämmerei) innerhalb eines Monats schriftlich anzuzeigen. Mit der Abmeldung des Hundes ist die noch vorhandene Hundesteuermarke an die Stadt zurückzugeben.“ [23.01.03 Hundesteuersatzung · PDF-Seite 5](https://www.freiburg.de/pb/site/Freiburg/get/documents_E896032368/freiburg/daten/ortsrecht/23%20Kommunalabgaben/OrtsR_23_01_03.pdf#page=5)",
+      "sekunden": 52.94
+    },
+    {
+      "n": 4,
+      "id": "parken-ersatz",
+      "frage": "Ich habe meinen Bewohnerparkausweis verloren. Was kostet mich ein neuer als Ersatz?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "belegstelle",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "„(3) Für Änderungen auf dem Bewohnerparkausweis sowie die Ersatzausstellung aufgrund von Verlust wird eine Gebühr in Höhe von 10 Euro erhoben. Unter Änderungen fallen insbesondere der Umzug in ein anderes Parkgebiet oder ein Fahrzeugwechsel. Die Gültigkeitsdauer des Bewohnerparkausweises wird durch eine Änderung im Sinne der Sätze 1 und 2 nicht berührt.“ [07.05 Bewohnerparkgebührenverordnung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-84659489/freiburg/daten/ortsrecht/07%20Verkehr/OrtsR_07_05.pdf#page=2)",
+      "sekunden": 3.75
+    },
+    {
+      "n": 5,
+      "id": "parken-verlaengern",
+      "frage": "Mein Bewohnerparkausweis läuft bald ab. Wie früh kann ich den nächsten beantragen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(2) Der Zeitraum beginnt mit der Ausstellung des Bewohnerparkausweises. Ein neuer Bewohnerparkausweis kann maximal einen Monat vor Ablauf des alten beantragt werden.“ [07.05 Bewohnerparkgebührenverordnung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-84659489/freiburg/daten/ortsrecht/07%20Verkehr/OrtsR_07_05.pdf#page=2)",
+      "sekunden": 52.815
+    },
+    {
+      "n": 6,
+      "id": "buecherei-anmeldung",
+      "frage": "Kann ich mich bei der Stadtbibliothek online registrieren, und wie alt muss ich sein und wo gemeldet?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(3) Benutzer_innen ab dem vollendeten 18. Lebensjahr mit einer Meldeadresse in Deutschland können sich auch online anmelden. Ermäßigungsnachweise sind unverzüglich persönlich, per Post oder elektronisch an die Stadtbibliothek Freiburg i.Br. zu übermitteln. Nach persönlicher Vorlage eines gültigen Personalausweises oder Reisepasses wird der Bibliotheksausweis ausgehändigt. Die Selbstregistrierung ist nur möglich, wenn mit dem Absenden der Selbstregistrierung die Einhaltung der Stadtbibliothekssatzung erklärt wird.“ [17.11 Stadtbibliothekssatzung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-342330762/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_11.pdf#page=2)",
+      "sekunden": 52.755
+    },
+    {
+      "n": 7,
+      "id": "buecherei-verleihen",
+      "frage": "Darf ich meinen Bibliotheksausweis der Stadtbibliothek an einen Freund verleihen? Wem gehört der Ausweis?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(3) Der Bibliotheksausweis ist nicht übertragbar und bleibt Eigentum der Stadtbibliothek.“ [17.11 Stadtbibliothekssatzung · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-342330762/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_11.pdf#page=3)",
+      "sekunden": 96.418
+    },
+    {
+      "n": 8,
+      "id": "buecherei-frist",
+      "frage": "Wie lange kann ich normalerweise Bücher aus der Stadtbibliothek ausleihen?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "belegstelle",
+      "cache": "aus",
+      "modellaufrufe": 0,
+      "antwort": "„(1) Die Leihfrist für alle ausgeliehenen Medien beträgt grundsätzlich vier Wochen. Die Bibliotheksleitung kann davon abweichende Leihfristen für einzelne Mediengruppen festlegen.“ [17.11 Stadtbibliothekssatzung · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-342330762/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_11.pdf#page=3)",
+      "sekunden": 5.423
+    },
+    {
+      "n": 9,
+      "id": "baum-stamm",
+      "frage": "In welcher Höhe wird nach der Baumschutzsatzung ein Stamm gemessen, wenn die Krone schon sehr tief beginnt?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(2) Der Stammumfang der geschützten Bäume ist in einer Höhe von 100 cm über dem Erdboden zu messen. Liegt der Kronenansatz unter dieser Höhe, ist der Stammumfang in einem Abstand von 10 cm unter dem Kronenansatz maßgebend. Bei mehrstämmig ausgebildeten Einzelbäumen ist die Summe der Stammumfänge maßgebend, wobei nur diejenigen Teilstämme mitgezählt werden, die einen Mindeststammumfang von 10 cm besitzen.“ [11.01.03 Baumschutzsatzung · PDF-Seite 2](https://www.freiburg.de/pb/site/Freiburg/get/documents_E-2005091242/freiburg/daten/ortsrecht/11%20Landschafts-%20und%20Naturschutz/OrtsR_11_01_03.pdf#page=2)",
+      "sekunden": 33.44
+    },
+    {
+      "n": 10,
+      "id": "park-enten",
+      "frage": "Darf ich in den öffentlichen Parkanlagen in Freiburg Enten füttern?",
+      "http": 200,
+      "korrekt": true,
+      "pfad": "originalzitat",
+      "cache": "aus",
+      "modellaufrufe": 1,
+      "antwort": "„(6) Es ist verboten, freilebende Tiere, insbesondere Tauben, Wasservögel oder Fische, vorsätzlich zu beunruhigen, zu jagen, zu fangen, zu füttern sowie Futter auszulegen, das zum Füttern von Tieren bestimmt ist. Auch die ungenehmigte Entnahme freilebender Tiere sowie das ungenehmigte Einbringen von Tieren ist verboten.“ [17.16 Parkanlagensatzung · PDF-Seite 3](https://www.freiburg.de/pb/site/Freiburg/get/documents_E612184403/freiburg/daten/ortsrecht/17%20Sonstige%20oeffentliche%20Einrichtungen/OrtsR_17_16.pdf#page=3)",
+      "sekunden": 96.328
+    }
+  ]
+}

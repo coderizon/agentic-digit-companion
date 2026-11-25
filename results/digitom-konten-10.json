@@ -1,0 +1,119 @@
+{
+  "zeit_utc": "2026-11-25T19:07:18.471518+00:00",
+  "benutzerkonten": 10,
+  "daten": "synthetischer DIGITOM-Katalog",
+  "schnittstelle": "Open WebUI /api/chat/completions, lokal",
+  "turns_pro_person": 2,
+  "lauf_s": 3.612,
+  "dialoge_korrekt": 10,
+  "p50_korrekte_dialoge_s": 3.554,
+  "p95_korrekte_dialoge_s": 3.608,
+  "status_erste_nachricht": {
+    "200": 10
+  },
+  "status_folgeantwort": {
+    "200": 10
+  },
+  "dialoge": [
+    {
+      "n": 1,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.538,
+      "t2_s": 1.75,
+      "dialog_s": 3.289
+    },
+    {
+      "n": 2,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.819,
+      "t2_s": 1.735,
+      "dialog_s": 3.554
+    },
+    {
+      "n": 3,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.773,
+      "t2_s": 1.719,
+      "dialog_s": 3.491
+    },
+    {
+      "n": 4,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.884,
+      "t2_s": 1.718,
+      "dialog_s": 3.602
+    },
+    {
+      "n": 5,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.827,
+      "t2_s": 1.736,
+      "dialog_s": 3.564
+    },
+    {
+      "n": 6,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.873,
+      "t2_s": 1.68,
+      "dialog_s": 3.553
+    },
+    {
+      "n": 7,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.857,
+      "t2_s": 1.751,
+      "dialog_s": 3.608
+    },
+    {
+      "n": 8,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.857,
+      "t2_s": 1.743,
+      "dialog_s": 3.6
+    },
+    {
+      "n": 9,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.756,
+      "t2_s": 1.759,
+      "dialog_s": 3.515
+    },
+    {
+      "n": 10,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 1.91,
+      "t2_s": 1.678,
+      "dialog_s": 3.588
+    }
+  ]
+}
