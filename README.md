@@ -1,5 +1,7 @@
 # Agentic DIGIT Companion
 
+**Interaktive Architektur, Benchmarks und Cloud-Umgebung** · [Agentic DIGIT Companion öffnen](https://agentic-digit-companion.vercel.app/#/architektur)
+
 Der **DIGITOM-Bedarfsassistent** hilft einem Fachamt, aus einem Anliegen einen prüfbaren Bedarf zu machen. Im Beispiel möchte der Außendienst kaputte Spielgeräte per Handy mit Foto und Standort melden. Der Assistent sucht einen bestehenden Service und dessen verantwortliches Team, zeigt einen ähnlichen früheren Fall und fragt nach Empfänger und Erfolgskriterium. Aus dem Gespräch entsteht ein **Steckbrief mit anklickbaren Originalquellen**. Er bleibt im jeweiligen Open-WebUI-Chat. Über die fachliche Freigabe und die Übernahme nach KIX oder Confluence entscheidet das Team.
 
 Die vier mitgelieferten Übungsunterlagen sind **synthetisch**. Für die Arbeit mit eigenen Daten legt ein Admin eine Wissenssammlung an, vergibt Leserechte und wählt sie im Chat mit `#` aus. Das Modell **Freiburger Stadtdaten** in derselben Oberfläche beantwortet Bürgerfragen aus einem eigenen öffentlichen Stadtindex. [Vorführung in zwei Nachrichten](demo/MORGEN.md)
@@ -47,9 +49,9 @@ flowchart TB
 | TopK und Stadtindex | Finden öffentliche Textstellen in Freiburg. Der Gateway kombiniert Wortsuche und Vektortreffer und bewertet Kandidaten mit BGE. Eigene `#`-Sammlungen werden in Open WebUI getrennt gespeichert und durchsucht. |
 | Strata und die vier T4 | Halten Qwen in der Quantisierung `UD-Q4_K_XL` bereit. Frei formulierte Unterlagen kann so das Modell auswerten. Strukturierte Katalogeinträge und eindeutige Tabellenzellen verarbeitet die Anwendung direkt. Die vier Modellplätze teilen sich die Hardware. |
 
-## Wo sind die beiden RAG-Pipelines vom Spark?
+## Text-RAG und Bild-RAG auf der Freiburger T4-VM
 
-Das zentrale Gateway läuft auf **Port 8090**. Für öffentliche Freiburger Dokumente behält es **Text-RAG und Bild-RAG** bei. Der Gateway grenzt die passenden Dokumente ein und wählt den weiteren Weg. In der T4-Version ist die Bildprüfung eine Funktion im Gateway. Auf dem Spark zeigte die Architektur dafür einen eigenen Dienst an. [Text- und Bildrouting im Gateway](app/city_gateway.py) · [EVIE-Bildsuche](app/visual_city.py)
+Das RAG-Gateway auf **Port 8090** verarbeitet öffentliche Freiburger Dokumente. Zuerst grenzt die Textsuche die passenden Dokumente ein. Bei einer Bildfrage sucht EVIE darin nach der passenden Seite oder dem Ausschnitt. Die Bildsuche läuft als Funktion im Gateway. [Text- und Bildrouting im Gateway](app/city_gateway.py) · [EVIE-Bildsuche](app/visual_city.py)
 
 ```mermaid
 flowchart TB
@@ -68,7 +70,7 @@ flowchart TB
   class textresult,bildresult beleg
 ```
 
-**EVIE ist sogar derselbe Modellstand** wie auf dem Spark (`tencent/EVIE-8B`). Im Freiburger Snapshot stehen 48 Bildseiten zur Verfügung. Ein geprüfter Kartenfall ist samt Originalseite und Bild-Prüfsumme hinterlegt. Auf dem Spark las Qwen3.8-27B über vLLM die Fundstellen. Auf der T4-VM übernimmt das Qwen3.8-Flash-Next 125B über Strata. [Spark-Referenzarchitektur](https://github.com/coderizon/Richtlinien-Assistant/blob/762c9b3db4e999f142c27d814ecbd81b21108974/ARCHITEKTUR.md) · [Freiburger Kartentest](results/final-visual.json)
+Die Bildsuche nutzt **Tencent EVIE-8B**. Der Freiburger Snapshot enthält 48 Bildseiten. Strata führt **Qwen3.8-Flash-Next 125B** aus und lässt das Modell die gefundene Seite oder den Ausschnitt auswerten. Der dokumentierte Kartentest prüft die Originalseite und ihre Bild-Prüfsumme. [Freiburger Kartentest](results/final-visual.json)
 
 Das Gateway bedient außerdem zwei Aufgaben mit eigenen Abläufen. **Haushaltszahlen** liest es direkt aus Freiburger Tabellen. Im **DIGITOM-Bedarfsgespräch** sucht es in der berechtigten Wissenssammlung nach Service und Zuständigkeit und erfragt fehlende Angaben. Beim Spielplatzbeispiel ist „Foto und Standort“ der Wunsch des Außendienstes an den künftigen Meldeservice. Der Chat sucht dafür einen passenden Service und erstellt einen Steckbrief.
 
