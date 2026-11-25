@@ -6,7 +6,19 @@ Gemessen am **25. November 2026** auf der gemieteten Referenz-VM mit vier Tesla 
 
 Jede simulierte Person war als **anderer regulärer Open-WebUI-Benutzer** angemeldet. Alle schickten gleichzeitig dieselbe Spielplatzfrage. Direkt nach der ersten Antwort forderte jede Person ihren eigenen Steckbrief für einen anderen Bauhofbezirk an. Der Test prüfte Service, verantwortliches Team, Links zum Original und Vergleichsfall sowie den individuellen Empfänger, das Erfolgskriterium und die verlinkte Steckbriefvorlage. 200 Personen erzeugen bei vollständigem Durchlauf **400 Nachrichten in zwei Gesprächsrunden**.
 
-Für diese getrennte Abnahmeinstanz galten derselbe synthetische Katalog und die normalen Leserechte. Gemessen wurde am angemeldeten WebUI-Endpunkt, von der ersten Frage bis zur fertigen Folgeantwort, ohne Denkpause zwischen den Nachrichten. Die erste Abfrage war für alle gleich. Der strukturierte Musterfall konnte aus den Katalogfeldern beantwortet werden. Aus diesem Test lässt sich die Kapazität für unterschiedliche frei formulierte Modellfragen nicht ableiten.
+Für diese getrennte Abnahmeinstanz galten derselbe synthetische Katalog und die normalen Leserechte. Gemessen wurde am angemeldeten WebUI-Endpunkt, von der ersten Frage bis zur fertigen Folgeantwort, ohne Denkpause zwischen den Nachrichten. Die strukturierte Spielplatzfrage war für alle gleich, der Steckbriefempfänger je Person verschieden. Freie Modellfragen messen wir weiter unten separat. [Aufbau der Testinstanz](results/installation-git.md)
+
+**Mit der ausgelieferten Einstellung für offene Dateien** kamen bei 200 getrennten Konten alle **400 Antworten** zurück. In allen **200 Steckbriefen** stimmten der individuelle Empfänger, das Erfolgskriterium und der Quellennachweis.
+
+| Gleichzeitig gestartete Bedarfsgespräche | Vollständig und korrekt | Median für beide Antworten | 95 % fertig | Letzter Dialog fertig |
+|---:|---:|---:|---:|---:|
+| 10 | 10/10 | 3,50 s | 3,54 s | 3,55 s |
+| 50 | 50/50 | 21,50 s | 21,80 s | 21,82 s |
+| 200 | 200/200 | 98,74 s | 98,95 s | 99,01 s |
+
+Die direkte Wiederholung mit denselben 200 Konten ergab erneut **200/200 korrekte Dialoge** und 400 erfolgreiche HTTP-Antworten. Der letzte Steckbrief war nach **98,90 s** fertig. [Wiederholung mit 200 Konten](results/digitom-konten-200-8192-wiederholung.json)
+
+Bei 200 gleichzeitig gestarteten Konten dauerte die erste Antwort im Median **50,4 Sekunden**. Nach der zweiten Nachricht wartete die mittlere Person **47,9 Sekunden** auf ihren Steckbrief. Der Starter setzt das weiche Prozesslimit auf bis zu 8.192 Dateideskriptoren innerhalb des bestehenden harten Limits. Auf der Test-VM erhielt Open WebUI tatsächlich 8.192. [10 einzelne Konten](results/digitom-konten-10-8192.json) · [50 einzelne Konten](results/digitom-konten-50-8192.json) · [200 einzelne Konten](results/digitom-konten-200-8192.json)
 
 **Erster Lauf mit dem ursprünglichen Linux-Prozesslimit von 1.024 offenen Dateien:** 10/10 korrekte Dialoge in 3,61 s, 50/50 in 23,93 s und 161/200 in 93,65 s bis zum letzten Abschluss oder Fehler. Bei 200 Konten endeten 23 erste Nachrichten und 16 Folgeanfragen mit HTTP-Fehler. Open WebUI protokollierte dabei mehrfach ausgeschöpfte Dateideskriptoren. [10 Konten](results/digitom-konten-10.json) · [50 Konten](results/digitom-konten-50.json) · [200 Konten](results/digitom-konten-200.json)
 

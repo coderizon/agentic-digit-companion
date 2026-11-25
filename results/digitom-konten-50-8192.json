@@ -1,0 +1,519 @@
+{
+  "zeit_utc": "2026-11-25T19:14:13.394263+00:00",
+  "benutzerkonten": 50,
+  "daten": "synthetischer DIGITOM-Katalog",
+  "schnittstelle": "Open WebUI /api/chat/completions, lokal",
+  "turns_pro_person": 2,
+  "lauf_s": 21.821,
+  "dialoge_korrekt": 50,
+  "p50_korrekte_dialoge_s": 21.497,
+  "p95_korrekte_dialoge_s": 21.797,
+  "status_erste_nachricht": {
+    "200": 50
+  },
+  "status_folgeantwort": {
+    "200": 50
+  },
+  "dialoge": [
+    {
+      "n": 1,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.909,
+      "t2_s": 10.585,
+      "dialog_s": 21.494
+    },
+    {
+      "n": 2,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.166,
+      "t2_s": 10.425,
+      "dialog_s": 21.592
+    },
+    {
+      "n": 3,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.534,
+      "t2_s": 10.8,
+      "dialog_s": 21.334
+    },
+    {
+      "n": 4,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.859,
+      "t2_s": 10.555,
+      "dialog_s": 21.414
+    },
+    {
+      "n": 5,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.824,
+      "t2_s": 9.831,
+      "dialog_s": 21.654
+    },
+    {
+      "n": 6,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.05,
+      "t2_s": 10.376,
+      "dialog_s": 21.425
+    },
+    {
+      "n": 7,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.914,
+      "t2_s": 10.556,
+      "dialog_s": 21.471
+    },
+    {
+      "n": 8,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.755,
+      "t2_s": 10.655,
+      "dialog_s": 21.41
+    },
+    {
+      "n": 9,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.701,
+      "t2_s": 10.784,
+      "dialog_s": 21.485
+    },
+    {
+      "n": 10,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.906,
+      "t2_s": 9.86,
+      "dialog_s": 21.766
+    },
+    {
+      "n": 11,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.894,
+      "t2_s": 10.635,
+      "dialog_s": 21.529
+    },
+    {
+      "n": 12,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.058,
+      "t2_s": 10.438,
+      "dialog_s": 21.496
+    },
+    {
+      "n": 13,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.833,
+      "t2_s": 10.597,
+      "dialog_s": 21.431
+    },
+    {
+      "n": 14,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.724,
+      "t2_s": 10.299,
+      "dialog_s": 21.023
+    },
+    {
+      "n": 15,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.932,
+      "t2_s": 10.587,
+      "dialog_s": 21.52
+    },
+    {
+      "n": 16,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.812,
+      "t2_s": 10.63,
+      "dialog_s": 21.442
+    },
+    {
+      "n": 17,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.184,
+      "t2_s": 10.337,
+      "dialog_s": 21.521
+    },
+    {
+      "n": 18,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.884,
+      "t2_s": 10.376,
+      "dialog_s": 21.259
+    },
+    {
+      "n": 19,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.739,
+      "t2_s": 10.548,
+      "dialog_s": 21.287
+    },
+    {
+      "n": 20,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.95,
+      "t2_s": 10.463,
+      "dialog_s": 21.412
+    },
+    {
+      "n": 21,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.937,
+      "t2_s": 9.875,
+      "dialog_s": 21.812
+    },
+    {
+      "n": 22,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.61,
+      "t2_s": 10.205,
+      "dialog_s": 21.815
+    },
+    {
+      "n": 23,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.904,
+      "t2_s": 10.624,
+      "dialog_s": 21.527
+    },
+    {
+      "n": 24,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.78,
+      "t2_s": 10.006,
+      "dialog_s": 21.785
+    },
+    {
+      "n": 25,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.844,
+      "t2_s": 9.89,
+      "dialog_s": 21.734
+    },
+    {
+      "n": 26,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.924,
+      "t2_s": 10.458,
+      "dialog_s": 21.382
+    },
+    {
+      "n": 27,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.017,
+      "t2_s": 10.48,
+      "dialog_s": 21.497
+    },
+    {
+      "n": 28,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.462,
+      "t2_s": 10.571,
+      "dialog_s": 21.033
+    },
+    {
+      "n": 29,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.945,
+      "t2_s": 10.607,
+      "dialog_s": 21.552
+    },
+    {
+      "n": 30,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.882,
+      "t2_s": 10.602,
+      "dialog_s": 21.484
+    },
+    {
+      "n": 31,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.403,
+      "t2_s": 10.375,
+      "dialog_s": 21.778
+    },
+    {
+      "n": 32,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.358,
+      "t2_s": 10.325,
+      "dialog_s": 21.683
+    },
+    {
+      "n": 33,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.962,
+      "t2_s": 10.537,
+      "dialog_s": 21.498
+    },
+    {
+      "n": 34,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.126,
+      "t2_s": 10.312,
+      "dialog_s": 21.438
+    },
+    {
+      "n": 35,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.261,
+      "t2_s": 10.231,
+      "dialog_s": 21.493
+    },
+    {
+      "n": 36,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.416,
+      "t2_s": 10.268,
+      "dialog_s": 21.684
+    },
+    {
+      "n": 37,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.949,
+      "t2_s": 10.536,
+      "dialog_s": 21.485
+    },
+    {
+      "n": 38,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.092,
+      "t2_s": 10.409,
+      "dialog_s": 21.5
+    },
+    {
+      "n": 39,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.774,
+      "t2_s": 10.141,
+      "dialog_s": 20.915
+    },
+    {
+      "n": 40,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.41,
+      "t2_s": 10.284,
+      "dialog_s": 21.694
+    },
+    {
+      "n": 41,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.565,
+      "t2_s": 10.224,
+      "dialog_s": 21.788
+    },
+    {
+      "n": 42,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.922,
+      "t2_s": 10.556,
+      "dialog_s": 21.478
+    },
+    {
+      "n": 43,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.718,
+      "t2_s": 10.078,
+      "dialog_s": 21.796
+    },
+    {
+      "n": 44,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.089,
+      "t2_s": 10.533,
+      "dialog_s": 21.622
+    },
+    {
+      "n": 45,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.488,
+      "t2_s": 10.292,
+      "dialog_s": 21.78
+    },
+    {
+      "n": 46,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 10.92,
+      "t2_s": 10.575,
+      "dialog_s": 21.495
+    },
+    {
+      "n": 47,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.831,
+      "t2_s": 9.966,
+      "dialog_s": 21.797
+    },
+    {
+      "n": 48,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.115,
+      "t2_s": 10.337,
+      "dialog_s": 21.452
+    },
+    {
+      "n": 49,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.2,
+      "t2_s": 10.297,
+      "dialog_s": 21.498
+    },
+    {
+      "n": 50,
+      "http1": 200,
+      "http2": 200,
+      "service_belegt": true,
+      "steckbrief_belegt": true,
+      "t1_s": 11.722,
+      "t2_s": 10.069,
+      "dialog_s": 21.791
+    }
+  ]
+}

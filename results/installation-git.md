@@ -11,7 +11,7 @@ Der Gesamtinstaller wurde aus einem Git-Archiv auf der gemieteten Vier-T4-Maschi
 | Neue WebUI | Das erste lokale Administratorkonto entstand mit geschlossener öffentlicher Registrierung. Anschließend wurde eine weitere Selbstregistrierung mit HTTP 403 abgelehnt. |
 | Wiederholung | Erster Lauf und erneutes `bash setup.sh` bestanden je **10/10 Prüfungen** über Open WebUI. Die Übungssammlung enthielt danach weiterhin genau vier Quelldateien. Der Test deckt Service, Rückfragen, Steckbrief und Originalabruf ab. |
 | Benutzer-systemd | Die mitgelieferte Unit wurde separat unter Linux mit einem Testprozess und einem Installationspfad mit Leerzeichen gestartet. Der Dienst erhielt die richtige Laufzeitwurzel und das Argument `foreground`. Auf der gemieteten VM wurde der Supervisor ohne systemd betrieben. |
-| Dokumentation | Das Mermaid-Diagramm ließ sich mit acht Kacheln und zwei Rechnerrahmen als SVG rendern. |
+| Dokumentation | Das Diagramm der Rechner und Dienste ließ sich mit acht Kacheln und zwei Rechnerrahmen als SVG rendern. Der zweite Plan zeigt die Abzweigung in Text- und Bildsuche. |
 
 **Offen für die Übergabe an DIGIT:** einmal auf der städtischen VM `bash setup.sh --check` ausführen und anschließend den Live-Abnahmetest mit dem dort freigegebenen Netzweg und persistenten Speicher abschließen. Der Neuabruf sämtlicher Gewichte und öffentlichen Datenquellen wurde in dieser Wiederholungsprobe ausgelassen. Die Zeiten der Installationsprobe sind daher keine Prognose für einen Kaltstart.
 

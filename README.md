@@ -45,7 +45,32 @@ flowchart TB
 | Open WebUI | Prüft die Leserechte und übergibt nur zugängliche Auszüge der ausgewählten Sammlung mit einer Signatur an das Gateway. Hier lassen sich Quellen öffnen und Chats wiederfinden. |
 | RAG-Gateway | Ordnet den Bedarf einem Service zu, unterscheidet Katalogwissen von Angaben der fragenden Person und fragt nach fehlenden Angaben. Im Stadtchat kann es eindeutige Zahlen direkt aus der Originaltabelle lesen. |
 | TopK und Stadtindex | Finden öffentliche Textstellen in Freiburg. Der Gateway kombiniert Wortsuche und Vektortreffer und bewertet Kandidaten mit BGE. Eigene `#`-Sammlungen werden in Open WebUI getrennt gespeichert und durchsucht. |
-| Strata und die vier T4 | Halten Qwen in der Quantisierung `UD-Q4_K_XL` bereit. Freier Quelltext kann so ausgewertet werden. Strukturierte Katalogeinträge und eindeutige Tabellenzellen verarbeitet die Anwendung direkt. Die vier Modellplätze teilen sich die Hardware. |
+| Strata und die vier T4 | Halten Qwen in der Quantisierung `UD-Q4_K_XL` bereit. Frei formulierte Unterlagen kann so das Modell auswerten. Strukturierte Katalogeinträge und eindeutige Tabellenzellen verarbeitet die Anwendung direkt. Die vier Modellplätze teilen sich die Hardware. |
+
+## Wo sind die beiden RAG-Pipelines vom Spark?
+
+Das zentrale Gateway läuft auf **Port 8090**. Für öffentliche Freiburger Dokumente behält es **Text-RAG und Bild-RAG** bei. Der Gateway grenzt die passenden Dokumente ein und wählt den weiteren Weg. In der T4-Version ist die Bildprüfung eine Funktion im Gateway. Auf dem Spark zeigte die Architektur dafür einen eigenen Dienst an. [Text- und Bildrouting im Gateway](app/city_gateway.py) · [EVIE-Bildsuche](app/visual_city.py)
+
+```mermaid
+flowchart TB
+  gw["RAG-Gateway · 8090"]
+  docs["Öffentliche Dokumente<br/>TopK und BM25 suchen passende Stellen"]
+  text["Text-RAG<br/>BGE ordnet Textstellen"]
+  bild["Bild-RAG<br/>EVIE findet Seiten und Ausschnitte"]
+  textresult["Antwort mit Originalabsatz<br/>oder geprüftem Zitat"]
+  bildresult["Qwen liest die Seite<br/>Abgleich mit gedruckter Beschriftung"]
+  gw --> docs
+  docs --> text --> textresult
+  docs --> bild --> bildresult
+  classDef dienst fill:#eaf3ff,stroke:#4876a4,color:#18314a
+  classDef beleg fill:#edf6ef,stroke:#63846e,color:#183526
+  class gw,docs,text,bild dienst
+  class textresult,bildresult beleg
+```
+
+**EVIE ist sogar derselbe Modellstand** wie auf dem Spark (`tencent/EVIE-8B`). Im Freiburger Snapshot stehen 48 Bildseiten zur Verfügung. Ein geprüfter Kartenfall ist samt Originalseite und Bild-Prüfsumme hinterlegt. Auf dem Spark las Qwen3.8-27B über vLLM die Fundstellen. Auf der T4-VM übernimmt das Qwen3.8-Flash-Next 125B über Strata. [Spark-Referenzarchitektur](https://github.com/coderizon/Richtlinien-Assistant/blob/762c9b3db4e999f142c27d814ecbd81b21108974/ARCHITEKTUR.md) · [Freiburger Kartentest](results/final-visual.json)
+
+Das Gateway bedient außerdem zwei Aufgaben mit eigenen Abläufen. **Haushaltszahlen** liest es direkt aus Freiburger Tabellen. Im **DIGITOM-Bedarfsgespräch** sucht es in der berechtigten Wissenssammlung nach Service und Zuständigkeit und erfragt fehlende Angaben. Beim Spielplatzbeispiel ist „Foto und Standort“ der Wunsch des Außendienstes an den künftigen Meldeservice. Der Chat sucht dafür einen passenden Service und erstellt einen Steckbrief.
 
 ## Morgen auf den T4 installieren
 
@@ -69,9 +94,12 @@ ssh -N -L 127.0.0.1:8786:127.0.0.1:8077 BENUTZER@VM
 
 `BENUTZER@VM` durch den freigegebenen DIGIT-Zugang ersetzen. Vom Laptop muss die VM über einen genehmigten Netzweg erreichbar sein, etwa per VPN. Dann [Open WebUI auf dem Arbeitsplatz öffnen](http://127.0.0.1:8786/) und **DIGITOM · Bedarfsassistent** auswählen. Der Internetzugriff für die Erstinstallation und der spätere Zugriff der Nutzer sind zwei verschiedene Verbindungen.
 
+## Was schaffen die vier T4?
+
+Im strukturierten Spielplatzfall stellten 200 verschiedene Open-WebUI-Testkonten zugleich die erste Frage. Jeder Account forderte danach einen eigenen Steckbrief an. Im gemessenen Lauf waren **200/200 Steckbriefe** samt Empfänger und Quelle nach **99 Sekunden** fertig. Bei 50 Konten dauerte derselbe Ablauf **22 Sekunden**. Zehn verschiedene Erklärfragen zu Satzungen brauchten ebenfalls rund **96 Sekunden**. Die Frageart hat damit großen Einfluss auf die Wartezeit. [Benchmarks mit Einzelwerten](BENCHMARKS.md)
+
 ## Betrieb und Nachweise
 
 - [AGENTS.md](AGENTS.md) beschreibt Vorprüfung, Installation, Abnahme, Wiederanlauf und den Umgang mit echten Unterlagen.
 - [BETRIEB.md](BETRIEB.md) erklärt Retrieval, UI-Einstellungen, Modellaufrufe und Einzeldienste.
-- [Benchmarks mit 10, 50 und 200 parallelen Anfragen](BENCHMARKS.md) zeigen Wartezeit und Korrektheit für Bedarfsgespräche, Haushaltszahlen und freie Modellfragen. Man kann jede Messreihe bis zu den einzelnen Ergebnissen verfolgen.
 - [Installationsprüfung](results/installation-git.md) hält fest, welche Teile auf dem gemieteten T4-System überprüft wurden.
