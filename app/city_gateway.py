@@ -32,6 +32,7 @@ from evidence import rule_clauses, selected
 from span_reader import load_reader
 from ui_knowledge import candidates as knowledge_candidates, checked_scope
 import digitom_workflow as digitom
+import meeting_chat
 
 
 ROOT = Path(os.environ.get("FREIBURG_ROOT", "/srv/freiburg-openrag"))
@@ -45,6 +46,8 @@ DOCS = json.loads((GEN / "sources.json").read_bytes())
 ROWS = {r["id"]: r for r in map(json.loads, (GEN / "pages.jsonl").read_bytes().splitlines())}
 DOCUMENT_QUEUE = asyncio.Semaphore(int(os.environ.get("FREIBURG_DOCUMENT_CAPACITY", "24")))
 DOCUMENT_WORKERS = ThreadPoolExecutor(max_workers=int(os.environ.get("FREIBURG_DOCUMENT_WORKERS","8")), thread_name_prefix="evidence")
+MEETING_QUEUE = asyncio.Semaphore(2)
+MEETING_WORKERS = ThreadPoolExecutor(max_workers=2, thread_name_prefix="meetings")
 ANSWER_CACHE = OrderedDict()
 ACTIVE_QUESTIONS = {}
 CACHE_LIMIT = int(os.environ.get("FREIBURG_ANSWER_CACHE","256"))
@@ -544,6 +547,22 @@ async def checked_document(question,messages,cache_allowed):
     return await asyncio.shield(task), "neu"
 
 
+async def meeting_response(scope):
+    try:
+        await asyncio.wait_for(MEETING_QUEUE.acquire(), timeout=1.5)
+    except TimeoutError as exc:
+        raise HTTPException(429, "Die Meetingauswertung ist belegt. Bitte probiere es gleich erneut.",
+                            headers={"Retry-After": "10"}) from exc
+
+    def run():
+        TRACE.calls = 0
+        return meeting_chat.answer(ROOT, scope, ask_reader), "meeting", TRACE.calls
+
+    job = asyncio.get_running_loop().run_in_executor(MEETING_WORKERS, run)
+    job.add_done_callback(lambda _: MEETING_QUEUE.release())
+    return await asyncio.shield(job)
+
+
 @app.post("/v1/chat/completions")
 async def chat(body: dict, request: Request, authorization: str = Header(default="")):
     authorized(authorization)
@@ -567,7 +586,12 @@ async def chat(body: dict, request: Request, authorization: str = Header(default
     try:
         if await request.is_disconnected():
             raise HTTPException(499, "Verbindung vor der Bearbeitung geschlossen")
-        if model == digitom.MODEL:
+        if scope and scope.get("workflow") == meeting_chat.WORKFLOW:
+            result = await meeting_response(scope)
+            cache_state = "privat"
+        elif model == MODEL and re.search(r"\bmeeting[\s_-]*[0-9]+\b", question, re.I):
+            raise HTTPException(403, "Meetingfragen benötigen eine aktuelle Lesefreigabe aus Open WebUI.")
+        elif model == digitom.MODEL:
             result = await queued_document(question, messages, scope, workflow=True)
             cache_state = "privat"
         elif scope:

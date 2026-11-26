@@ -1,0 +1,83 @@
+{
+  "datum": "2026-11-26",
+  "umgebung": "Vast-Testinstanz mit vier Tesla T4, Open WebUI über das RAG-Gateway",
+  "spracherkennung": "faster-whisper small, CPU int8, deutsch",
+  "beispiel": "demo/meetings/Meeting001.mp3",
+  "sha256": "a56c7c789b28d4c67d10fcb9c8304ea32f83e809560cae1fa7d8ad9f1b4612d9",
+  "dauer_sekunden": 36.42,
+  "chat_pruefungen": [
+    {
+      "fall": "Ohne Freigabe und unbekannte Nummer",
+      "bestanden": true
+    },
+    {
+      "fall": "Erratene Sammlungs-ID ohne Leserecht",
+      "bestanden": true
+    },
+    {
+      "fall": "Original ohne Freigabe gesperrt",
+      "bestanden": true
+    },
+    {
+      "fall": "Gestreamte Antwort mit vier sachlich und zeitlich richtigen Belegen",
+      "bestanden": true,
+      "sekunden": 4.095
+    },
+    {
+      "fall": "Folgefrage zur Zuständigkeit und Frist",
+      "bestanden": true
+    },
+    {
+      "fall": "Transkript für zweite Frage wiederverwendet",
+      "bestanden": true
+    },
+    {
+      "fall": "Nicht besprochene Information offen gelassen",
+      "bestanden": true
+    },
+    {
+      "fall": "Verlinktes Original ist die Test-MP3",
+      "bestanden": true
+    },
+    {
+      "fall": "Leserecht im selben Gespräch entzogen",
+      "bestanden": true
+    },
+    {
+      "fall": "Original nach Entzug gesperrt",
+      "bestanden": true
+    },
+    {
+      "fall": "Öffentlicher Tabellenpfad",
+      "bestanden": true
+    }
+  ],
+  "bedarfsassistent_bestanden": 10,
+  "zeitmarken": [
+    {
+      "start": 0.85,
+      "ende": 4.03,
+      "wortlaut": "Wir testen die mobile Meldung von Schäden auf Spielplätzen."
+    },
+    {
+      "start": 4.55,
+      "ende": 5.93,
+      "wortlaut": "Der Test beginnt am Montag."
+    },
+    {
+      "start": 12.14,
+      "ende": 15.72,
+      "wortlaut": "Der Außendienst schickt ein Foto und den Standort an den Bauhof."
+    },
+    {
+      "start": 23.18,
+      "ende": 26.8,
+      "wortlaut": "Anna erstellt bis Freitag eine kurze Anleitung für den Außendienst."
+    },
+    {
+      "start": 34.17,
+      "ende": 36.13,
+      "wortlaut": "Die Kosten für neue Geräte sind noch offen."
+    }
+  ]
+}

@@ -6,6 +6,8 @@ Der **DIGITOM-Bedarfsassistent** hilft einem Fachamt, aus einem Anliegen einen p
 
 Die vier mitgelieferten Übungsunterlagen sind **synthetisch**. Für die Arbeit mit eigenen Daten legt ein Admin eine Wissenssammlung an, vergibt Leserechte und wählt sie im Chat mit `#` aus. Das Modell **Freiburger Stadtdaten** in derselben Oberfläche beantwortet Bürgerfragen aus einem eigenen öffentlichen Stadtindex. [Vorführung in zwei Nachrichten](demo/MORGEN.md)
 
+Im **Freiburger Stadtchat** lassen sich auch freigegebene Meetingaufnahmen befragen. „Was wurde in Meeting001 besprochen?“ liefert die besprochenen Punkte mit Zeitmarken und einem Link zur Originalaufnahme. Die deutsche Beispiel-MP3 enthält ein fiktives Gespräch über Spielplatzmeldungen. [Beispielaufnahme](demo/meetings/Meeting001.mp3) · [Meetings einrichten und freigeben](BETRIEB.md#geschützte-meetingaufnahmen)
+
 ## Was läuft wo?
 
 Jeder große Rahmen ist ein Rechner. Alle vier Serverdienste befinden sich **gemeinsam auf einer Linux-VM**. Die kleinen Kacheln innerhalb der VM sind Prozesse und Speicherorte. Ein Pfeil zeigt, welcher Prozess mit welchem spricht.
@@ -30,6 +32,7 @@ flowchart TB
     gateway -->|"Direktabfrage und Wortsuche"| city
     search --> city
     gateway -->|"Freitext auswerten oder formulieren"| strata
+    gateway -->|"Freigegebene MP3, lokales Whisper auf CPU"| meetings[("Geschützte Meetingtranskripte<br/>Aussagen mit Zeitmarken")]
     strata --> compute
     search --> compute
   end
@@ -38,7 +41,7 @@ flowchart TB
   classDef speicher fill:#edf6ef,stroke:#63846e,color:#183526
   classDef geraet fill:#f3f0f8,stroke:#897c9b,color:#372d45
   class ui,gateway,search,strata dienst
-  class personal,city speicher
+  class personal,city,meetings speicher
   class browser,compute geraet
 ```
 

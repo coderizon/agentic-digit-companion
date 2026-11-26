@@ -37,6 +37,24 @@ Für ein normales Benutzerkonto zwei Lesefreigaben setzen. Unter **Einstellungen
 
 Für die Sammlungen nutzt die WebUI lokale mehrsprachige E5-Embeddings. Der Filter prüft beim Abruf Benutzerrechte und Dateizugehörigkeit und übergibt die passenden Originalpassagen an den Stadtchat. Dort ordnet BGE die Stellen nach Relevanz. Qwen formuliert die Antwort, die Pipeline prüft Zitate und Aussagen und verlinkt die zugehörige Originaldatei. Die Originaldatei selbst prüft beim Öffnen erneut die Leseberechtigung. Antworten aus Sammlungen werden vom gemeinsamen Antwortcache ausgeschlossen. Die Anzahl der vorab gefundenen Stellen pro Sammlung lässt sich im Adminbereich bei **Dokumente → Top K** einstellen (1 bis 12). Das Zerlegen von Dateien in Abschnitte wirkt beim neuen Einlesen. [Open WebUI zu Chatparametern](https://docs.openwebui.com/features/chat-conversations/chat-features/chat-params/) · [Wissenssammlungen und `#`](https://docs.openwebui.com/features/workspace/knowledge/)
 
+## Geschützte Meetingaufnahmen
+
+Für die optionale Audioquelle auf dem installierten Linux-Host die lokale Spracherkennung einrichten. Das Beispiel liegt im Projekt. Die erste Einrichtung lädt das Sprachmodell. Im Betrieb verarbeitet ein CPU-Worker die Aufnahme auf dem Host. Er startet bei der ersten berechtigten Frage. Bei einer langen Aufnahme bereitet `--prepare` das Transkript bereits beim Import vor. [faster-whisper](https://github.com/SYSTRAN/faster-whisper)
+
+```bash
+cd "$FREIBURG_ROOT"
+bash ops/meeting-install.sh
+.venv/bin/python ops/import_meeting.py demo/meetings/Meeting001.mp3
+```
+
+Der Import legt die private Sammlung **Meetings · Geschützte Aufnahmen** an. Weitere MP3s lassen sich mit `--meeting Meeting002` benennen und mit `--collection UUID` einer bestimmten Sammlung zuordnen. Unter **Arbeitsbereich → Wissen** die Sammlung mit der jeweiligen Person oder Gruppe teilen und ihr Zugriff auf das Modell **Freiburger Stadtdaten** geben. Eine Meetingnummer reicht dann als Suchbegriff. Falls mehrere zugängliche Aufnahmen dieselbe Nummer haben, lässt sich die gewünschte Sammlung im Chat mit `#` auswählen.
+
+Als erste Frage eignet sich „Was wurde in Meeting001 besprochen?“, als Folgefrage „Wer erstellt die Anleitung und bis wann?“. Die Zeiten beziehen sich auf den Beginn der Original-MP3. Die Übersicht eines kurzen Meetings zeigt die belegten Aussagen direkt. Bei Detailfragen und längeren Aufnahmen wählt Qwen passende Aussagen aus dem Transkript. Der Chat übernimmt ihren Wortlaut und ihre Zeitmarken und verlinkt die berechtigungsgeschützte Originaldatei.
+
+Open WebUI prüft für jede Meetingfrage die aktuelle Datei- und Sammlungszugehörigkeit des Benutzers. Der Suchpfad für Audiodaten nutzt eine signierte Freigabe. Die Aufnahme liegt im lokalen Uploadspeicher von Open WebUI und das Transkript unter `$FREIBURG_ROOT/private-meetings/`. Diese Daten bei einer Sicherung wie private WebUI-Daten behandeln. Beim endgültigen Löschen einer Aufnahme auch das Transkript mit derselben Datei-ID entfernen. Bereits gespeicherte Chatantworten haben den Lebenszyklus ihres Chats. Der öffentliche Stadtindex enthält ausschließlich seinen bisherigen Dokumentbestand.
+
+Die mitgelieferte Beispielaufnahme wurde mit der deutschen Piper-Stimme Thorsten erzeugt. Sie dauert rund 36 Sekunden. Der Abnahmetest `eval/meeting_smoke.py` vergleicht die vier Zeitbereiche mit dem gesprochenen Text und prüft unter anderem eine Folgefrage, den Originalabruf und den Entzug einer Lesefreigabe an einem normalen Konto. [Deutsche Teststimme](https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE/thorsten/medium)
+
 ## Eigene Messungen
 
 Die gemessenen Wartezeiten und die Zahl der richtig belegten Antworten stehen im [Testbericht für die vier T4](results/MESSUNG.md). Vier Modellplätze bedeuten, dass Qwen gleichzeitig an bis zu vier Antworten schreiben kann. Eine Frage nach einem eindeutig bezeichneten Haushaltsbetrag belegt keinen dieser Plätze.

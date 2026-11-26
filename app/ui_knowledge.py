@@ -21,7 +21,7 @@ def checked_scope(envelope, key_file):
     if (scope.get("v") != 1 or type(scope.get("at")) is not int or not -20 <= time.time() - scope["at"] <= 120
             or not scope.get("actor") or not isinstance(scope.get("question"), str)
             or not 1 <= len(scope["question"]) <= 3600 or not isinstance(scope.get("collections"), list)
-            or not 1 <= len(scope["collections"]) <= 8):
+            or not (0 if scope.get("workflow") == "freiburg-meetings" else 1) <= len(scope["collections"]) <= 8):
         raise HTTPException(403, "Die Wissensfreigabe ist abgelaufen oder unvollständig.")
     return scope
 
