@@ -1,0 +1,14 @@
+/* Digit avatar in the welcome header and next to assistant replies. */
+button > img.size-9[src*="/models/model/profile/image?id=freiburg-meetings"] {
+    width: 5.5rem;
+    height: 5.5rem;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+img.assistant-message-profile-image[src*="/models/model/profile/image?id=freiburg-meetings"] {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: contain;
+    border-radius: 0;
+}
