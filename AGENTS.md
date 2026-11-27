@@ -1,6 +1,6 @@
 # DIGITOM auf der Ziel-VM einrichten
 
-Arbeite im Clone dieses privaten Repositorys. Ziel ist eine **eigene Installation** des Freiburger Stadtchats und des DIGITOM-Bedarfsassistenten. Die gemietete Referenz-VM lief mit Ubuntu 24.04, vier Tesla T4 und rund 483 GiB nutzbarem RAM. Das kommunale Zielsystem kann anders administriert sein. Architektur, Ports und beide Datenwege sind in der [README](README.md) abgebildet.
+Arbeite im Clone dieses Repositorys. Ziel ist eine **eigene Installation** des Freiburger Stadtchats und des DIGITOM-Bedarfsassistenten. Die gemietete Referenz-VM lief mit Ubuntu 24.04, vier Tesla T4 und rund 483 GiB nutzbarem RAM. Das kommunale Zielsystem kann anders administriert sein. Architektur, Ports und Datenwege sind in der [README](README.md) abgebildet. Für die optionalen Module siehe [Fachbereiche, Excel und KIX](demo/fachbereiche/README.md) sowie [Freibot](demo/reachy/README.md).
 
 ## Zielsystem feststellen
 

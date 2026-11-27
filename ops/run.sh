@@ -2,6 +2,7 @@
 set -euo pipefail
 export FREIBURG_ROOT="${FREIBURG_ROOT:-/srv/freiburg-openrag}"
 R="$FREIBURG_ROOT"
+[[ ! -f "$R/run/settings.sh" ]] || source "$R/run/settings.sh"
 export PYTHONPATH="$R/app:$R/vendor"
 export CUDA_DEVICE_ORDER=PCI_BUS_ID
 export TOKENIZERS_PARALLELISM=false
@@ -19,12 +20,26 @@ case "${1:-}" in
     export STRATA_FEED="https://github.com/Niko1221/Strata/releases/download/v0.2.21"
     export STRATA_RAG_READER_KEY
     STRATA_RAG_READER_KEY="$(cat "$R/app/reader.key")"
-    exec "${STRATA_BIN:-$HOME/.local/bin/strata}" launch \
+    strata="${STRATA_BIN:-$HOME/.local/bin/strata}"
+    stop_reader() { "$strata" launch --stop >/dev/null 2>&1 || true; }
+    trap 'stop_reader; exit 0' TERM INT
+    "$strata" launch \
       --family unsloth --model UD-Q4_K_XL --model-path "$shard" --data-dir "$assets" \
       --backend nvidia --gpu "${FREIBURG_READER_GPUS:-0,1,2,3}" --split-engine off \
       --context "${FREIBURG_CONTEXT:-16k}" --parallel "${FREIBURG_MODEL_SLOTS:-4}" \
       --drafting "${FREIBURG_DRAFTING:-mtp}" --vision cpu --access local --port "${FREIBURG_READER_PORT:-18189}" \
       --api-key-env STRATA_RAG_READER_KEY --yes --no-tui
+    port="${FREIBURG_READER_PORT:-18189}"
+    failures=0
+    while true; do
+      if curl -fsS --max-time 10 -o /dev/null -H "Authorization: Bearer $STRATA_RAG_READER_KEY" "http://127.0.0.1:$port/v1/models"; then
+        failures=0
+      else
+        ((failures+=1))
+        if ((failures >= 6)); then stop_reader; exit 1; fi
+      fi
+      sleep 5
+    done
     ;;
   gateway)
     export CUDA_VISIBLE_DEVICES="${FREIBURG_RERANK_GPU:-2}"

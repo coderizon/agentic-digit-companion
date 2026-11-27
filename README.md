@@ -4,6 +4,21 @@
 
 Der **DIGITOM-Bedarfsassistent** hilft einem Fachamt, aus einem Anliegen einen prüfbaren Bedarf zu machen. Im Beispiel möchte der Außendienst kaputte Spielgeräte per Handy mit Foto und Standort melden. Der Assistent sucht einen bestehenden Service und dessen verantwortliches Team, zeigt einen ähnlichen früheren Fall und fragt nach Empfänger und Erfolgskriterium. Aus dem Gespräch entsteht ein **Steckbrief mit anklickbaren Originalquellen**. Er bleibt im jeweiligen Open-WebUI-Chat. Über die fachliche Freigabe und die Übernahme nach KIX oder Confluence entscheidet das Team.
 
+## Fachbereiche, IT-Service und Freibot
+
+Die T4-Demo enthielt am 27. November 2026 sechs Open-WebUI-Wissenssammlungen. Die Testkonten für Stadtplanung und Kämmerei konnten jeweils drei sehen. Beide hatten Zugriff auf das IT-Handbuch und die öffentlichen Unterlagen zu Kleineschholz. Als dritte Sammlung sah jedes Konto seine eigenen internen Unterlagen. Der öffentliche Freiburger Stadtindex ist separat über das Chatmodell **Freiburger Stadtdaten** erreichbar.
+
+![Schaubild mit dem eingerahmten Wissensbereich, sechs Open-WebUI-Sammlungen und dem separaten öffentlichen Stadtindex](docs/wissensquellen/DIGIT-Companion-Wissensquellen.png)
+
+| Vorführung | Ablauf und Einstieg |
+|---|---|
+| Fachbereiche und Excel | Die Fachbereichs-Pipe sucht in den freigegebenen Unterlagen. Auf Wunsch erstellt ein MCP-Werkzeug einen persönlichen Prüfvermerk. Die Excel-Liste lässt sich direkt im Chat herunterladen. [Vorführfragen](demo/fachbereiche/Vorfuehrung.md) |
+| IT-Handbuch und KIX | Für RP-12 findet der Chat die Anleitung zum erneuten Anmelden. Bei einer ungelösten Störung kann er einen Ticketentwurf vorbereiten. Nach Bestätigung legt das Werkzeug das Ticket über die KIX-API an und liefert die Nummer zurück. [Testsystem einrichten](demo/fachbereiche/README.md#it-hilfe-mit-kix-start) |
+| Geschützte Meetings | Whisper small transkribiert die Aufnahme lokal auf der T4-CPU. Berechtigte Konten erhalten Antworten mit Zeitmarken. Für die zweite Übung eignen sich „Wann wird die Wiederherstellung getestet?“ und „Wann bespricht das Team das Protokoll?“. [Synthetische IT-Sitzung](demo/meetings/Meeting003.mp3) · [Referenztranskript](demo/meetings/Meeting003-Transkript.txt) |
+| Freibot | Reachy Mini spricht mit Aiden, nimmt IT-Fragen und Ticketbestätigungen entgegen und erkennt das Weckwort lokal. Auf Zuruf wertet Qwen ein einzelnes Kamerabild auf der T4 aus. [Aufbau und Bedienung](demo/reachy/README.md) |
+
+[Schaubild und Erläuterungen für Notion](docs/wissensquellen/DIGIT-Companion-Wissensquellen-Notion.zip) · [Fachbereichsdemo installieren](demo/fachbereiche/README.md)
+
 Die vier mitgelieferten Übungsunterlagen sind **synthetisch**. Für die Arbeit mit eigenen Daten legt ein Admin eine Wissenssammlung an, vergibt Leserechte und wählt sie im Chat mit `#` aus. Das Modell **Freiburger Stadtdaten** in derselben Oberfläche beantwortet Bürgerfragen aus einem eigenen öffentlichen Stadtindex. [Vorführung in zwei Nachrichten](demo/MORGEN.md)
 
 Im **Freiburger Stadtchat** lassen sich auch freigegebene Meetingaufnahmen befragen. „Was wurde in Meeting001 besprochen?“ liefert die besprochenen Punkte mit Zeitmarken und einem Link zur Originalaufnahme. Die deutsche Beispiel-MP3 enthält ein fiktives Gespräch über Spielplatzmeldungen. [Beispielaufnahme](demo/meetings/Meeting001.mp3) · [Meetings einrichten und freigeben](BETRIEB.md#geschützte-meetingaufnahmen)
@@ -79,7 +94,7 @@ Das Gateway bedient außerdem zwei Aufgaben mit eigenen Abläufen. **Haushaltsza
 
 ## Morgen auf den T4 installieren
 
-Als vorgesehener **Linux-Benutzer der VM**, mit Lesezugriff auf dieses private Repository:
+Als vorgesehener **Linux-Benutzer der VM**:
 
 ```bash
 git clone https://github.com/coderizon/agentic-digit-companion.git && cd agentic-digit-companion && bash setup.sh

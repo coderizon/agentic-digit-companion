@@ -28,3 +28,5 @@ Für strukturierte Kataloge dienen die vier Textdateien als Muster. Ein Vergleic
 Der [Installationsbefehl](../README.md) richtet Modell, Wissensfilter und die vier Übungsquellen ein und prüft das Ergebnis im angemeldeten Chat. Das Prüfprotokoll liegt in `run/abnahme.json` der Installation. Ein erneuter Aufruf verwendet die vorhandene Übungssammlung.
 
 Die End-to-End-Prüfung umfasst die Serviceauswahl, das Folgegespräch, fehlende Angaben, Originaldateien, einen Katalogwechsel und eine unformatierte Arbeitsnotiz. [Prüfergebnisse](../results/digitom-bedarf.json)
+
+Für die Vorführung mit zwei Fachbereichen gibt es einen eigenen Fall mit amtlichem Lageplan, Gruppenrechten und einem persönlichen Prüfvermerk aus dem Chat. [Kleineschholz vorführen](fachbereiche/Vorfuehrung.md)

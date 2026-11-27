@@ -5,6 +5,7 @@
 private-meetings/
 *.mp3
 !demo/meetings/Meeting001.mp3
+!demo/meetings/Meeting003.mp3
 webui-data/
 ui-public/
 .webui_secret_key

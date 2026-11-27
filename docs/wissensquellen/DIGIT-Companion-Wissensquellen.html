@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DIGIT Companion · Wissensquellen</title>
+  <style>
+    body { max-width: 54rem; margin: 3rem auto; padding: 0 1.25rem; font: 1rem/1.55 "Segoe UI", sans-serif; color: #192535; background: white; }
+    h1, h2 { line-height: 1.2; }
+    h2 { margin-top: 2rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #d5dce1; padding: .55rem .65rem; text-align: left; vertical-align: top; }
+    th { background: #f2f5f7; }
+    li { margin: .35rem 0; }
+    .wissen { border: 2px solid #006a59; border-radius: 12px; padding: .4rem 1.4rem 1.2rem; margin: 1.25rem 0 2rem; }
+    .wissen h2 { margin-top: 1rem; color: #006a59; }
+    .wissen ul { list-style: none; padding: 0; }
+    .wissen li { margin: .6rem 0; }
+    .wissen hr { border: 0; border-top: 1px solid #a7c8c0; margin: 1.2rem 0; }
+  </style>
+</head>
+<body>
+  <h1>DIGIT Companion · Wissensquellen</h1>
+  <p>In Open WebUI wählt ein Team eine freigegebene Wissenssammlung. Jede Sammlung kann mehrere Dateien enthalten. Welche Technik eine Datei durchsuchbar macht, hängt vom Inhalt ab.</p>
+  <figure><img src="DIGIT-Companion-Wissensquellen.png" style="width:100%;height:auto" alt="Schaubild des DIGIT Companion mit einem eingerahmten Bereich für sechs Wissenssammlungen und den separaten öffentlichen Stadtindex."></figure>
+  <section class="wissen">
+    <h2>Wissensquellen</h2>
+    <h3>Open WebUI → Arbeitsbereich → Wissen</h3>
+    <p>Auf der T4-Demo sind sechs Sammlungen hinterlegt. Jedes Konto sieht die für dieses Konto freigegebene Auswahl.</p>
+    <ul>
+      <li>🗄️ <strong>IT-Service · Handbuch RaumPlan</strong></li>
+      <li>🗄️ <strong>Kleineschholz · Öffentliche Unterlagen</strong></li>
+      <li>🗄️ <strong>Stadtplanung · Interne Prüfunterlagen</strong></li>
+      <li>🗄️ <strong>Kämmerei · Interne Finanzvermerke</strong></li>
+      <li>🗄️ <strong>Meetings · Geschützte Aufnahmen</strong></li>
+      <li>🗄️ <strong>DIGITOM · Übungsdaten zum Bedarfsgespräch</strong></li>
+    </ul>
+    <p>Die Testkonten für Stadtplanung und Kämmerei sehen beide IT-Service und Kleineschholz. Als dritte Sammlung sieht jedes Konto die internen Unterlagen seines Fachbereichs.</p>
+    <hr>
+    <h3>Im Stadtchat angebundener Wissensbestand</h3>
+    <p>🗄️ <strong>Öffentlicher Freiburger Stadtindex</strong> · Über das Chatmodell „Freiburger Stadtdaten“ erreichbar. Die Originalquellen und der Suchindex werden separat importiert. Unter „Wissen“ gibt es dafür keinen eigenen Sammlungseintrag.</p>
+  </section>
+  <h2>Was passiert bei einer Frage?</h2>
+  <p><strong>„Was wurde in Meeting001 besprochen?“</strong><br>
+  Leserecht für die Aufnahme prüfen → gespeichertes Transkript laden → passende Aussagen mit Zeitmarken im Chat zeigen. Fehlt eine aktuelle Abschrift, erzeugt Whisper small sie aus der MP3. Das Original bleibt im Uploadspeicher von Open WebUI. Die Abschrift liegt im geschützten Transkriptspeicher.</p>
+  <p><strong>„Was hilft bei RP-12?“</strong><br>
+  Freigegebenes Handbuch auswählen → mit dem Embedding-Modell und Chroma passende Textstellen finden → Lösungsschritte mit Originalquelle im Chat zeigen.</p>
+  <p><strong>„Kannst du ein Ticket anlegen?“</strong><br>
+  Die Fachbereichs-Pipe bereitet einen Entwurf vor → die Person bestätigt → das Ticketwerkzeug legt den Fall in KIX an → die Ticketnummer erscheint im Chat.</p>
+  <h2>Legende für das Architekturdiagramm</h2>
+  <table>
+    <thead><tr><th>Symbol im Schaubild</th><th>Kategorie</th><th>Beispiel im DIGIT Companion</th></tr></thead>
+    <tbody>
+      <tr><td>🗄️ Grüner Zylinder im Schaubild</td><td>Inhaltlicher Wissensbestand</td><td>Open-WebUI-Sammlung oder öffentlicher Stadtbestand. Die Position im Kasten zeigt, wo er erreichbar ist.</td></tr>
+      <tr><td>📄 Blatt oder 🎵 Audiodatei</td><td>Quelldatei</td><td>Handbuch oder Originalaufnahme Meeting001.mp3</td></tr>
+      <tr><td>📄 Blatt mit Uhr</td><td>Abgeleitete Datei</td><td>Transkript mit Start- und Endzeit jeder Passage</td></tr>
+      <tr><td>▱ Modellkachel</td><td>KI-Modell</td><td>Whisper small verschriftlicht Sprache. multilingual-e5-small berechnet Suchvektoren.</td></tr>
+      <tr><td>Chroma-Logo</td><td>Technischer Speicher</td><td>Chroma speichert den Vektorindex für die Suche in Textsammlungen.</td></tr>
+      <tr><td>⚙️ Zahnrad in Open WebUI</td><td>Python-Erweiterung</td><td>Die Fachbereichs-Pipe steuert den Ablauf im Fachbereichschat.</td></tr>
+      <tr><td>🔧 Werkzeug</td><td>Ausführbare Aktion</td><td>Ein Ticket nach Zustimmung in KIX anlegen</td></tr>
+      <tr><td>▢ Anwendung</td><td>Fachsystem</td><td>KIX speichert das Ticket und vergibt die Ticketnummer.</td></tr>
+    </tbody>
+  </table>
+  <p>Der öffentliche Freiburger Stadtindex ist eine weitere, separat aufgebaute Quelle für den Stadtchat. Die Freigabe eines öffentlichen Dokuments öffnet keine privaten Meetings oder Fachbereichsunterlagen.</p>
+</body>
+</html>
